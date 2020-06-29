@@ -1,11 +1,11 @@
 # Knowledge Base - Home
 
-### Introduction
+## Introduction
 Welcome to my personal Knowledge Base.
 
 ---
 
-### Table of contents
+## Table of contents
 1. [General](#)
     - [Learning](#)
         - [OverTheWire](general/learning/OverTheWire.md)
@@ -25,5 +25,5 @@ Welcome to my personal Knowledge Base.
 
 ---
 
-### Repositories
+## Repositories
 - [Dotfiles](https://github.com/bartdenhoed/dotfiles) (Private)
