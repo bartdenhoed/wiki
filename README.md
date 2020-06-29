@@ -27,3 +27,8 @@ Welcome to my personal Knowledge Base.
 
 ## Repositories
 - [Dotfiles](https://github.com/bartdenhoed/dotfiles) (Private)
+
+---
+
+## TODO
+- https://github.com/dylanaraps/pure-bash-bible
