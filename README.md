@@ -1,7 +1,7 @@
 # Knowledge Base - Home
 
 ## Introduction
-Welcome to my personal Knowledge Base.
+Welcome to my personal Knowledge Base. [TODO: Short introduction]
 
 ---
 
