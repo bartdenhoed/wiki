@@ -7,6 +7,7 @@ Welcome to my personal Knowledge Base.
 
 ### Table of contents
 1. [General](#)
+    - [Learning](#)
 2. [Development](#)
     - [PHP](#)
         - [Laravel](#)
