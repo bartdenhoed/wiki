@@ -2,17 +2,17 @@
 
 ### Introduction
 
----
-
 ### Table of contents
+1. General
+2. Development
+3. Tools
 
----
 
 ### General
 ##### 1Password 7
-- Description: Go ahead. Forget your passwords. 1Password remembers them all for you.
+Keeping all my password safe across all my devices.
+
 - URL: https://1password.com/
-- Installation: Homebrew `brew cask install 1password`
 - Settings:
 	- General > Show item count in sidebar: Onn
 	- Mini > Open 1Password to: Favourites
@@ -22,9 +22,9 @@
 	- Watchtower > Check for vulnerable passwords: On
 
 ##### Google Backup and Sync
-- Description: Safely back up your files.
+Synchronize important files.
+
 - URL: https://www.google.com/drive/download/backup-and-sync/
-- Installation: Homebrew `brew cask install google-backup-and-sync`
 
 ##### Firefox
 - Description: Firefox Quantum browser
