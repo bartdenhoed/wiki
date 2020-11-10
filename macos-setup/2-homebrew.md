@@ -1,4 +1,4 @@
-# Knowledge Base - MacOS Setup - Homebrew
+# Knowledge Base - MacOS Setup - Homebrew (outdated)
 
 ### Introduction
 Homebrew is the missing package manager for macOS. We can now install all the necessary software for our Mac.

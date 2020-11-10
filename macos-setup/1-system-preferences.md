@@ -1,8 +1,8 @@
-# Knowledge Base - MacOS Setup - System Preferences
+# Knowledge Base - MacOS Setup - System Preferences (outdated)
 
 
 ##### Apple ID
-- iCloud > iCloud Drive: System Preferences 
+- iCloud > iCloud Drive: System Preferences
 - iCloud > Safari: On
 - iCloud > Keychain: On
 - iCloud > Find My Mac: On

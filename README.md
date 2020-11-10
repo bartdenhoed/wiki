@@ -32,3 +32,4 @@ Welcome to my personal Knowledge Base. [TODO: Short introduction]
 
 ## TODO
 - https://github.com/dylanaraps/pure-bash-bible
+- Mackup
