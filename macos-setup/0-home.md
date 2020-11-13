@@ -1,6 +1,6 @@
-![macos developer hero](https://github.com/bartdenhoed/knowledge-base/blob/master/images/macos_developer_hero.svg)
-
 # Knowledge Base - macOS Setup - Home
+
+![macos developer hero](https://github.com/bartdenhoed/knowledge-base/blob/master/images/macos_developer_hero.svg)
 
 ### Introduction
 Welcome to my macOS web development setup on my MacBook Pro 16-inch 2019 (macOS 11 Big Sur).
