@@ -353,3 +353,19 @@ ProtonVPN
 Folx
 HandBrake: Open Source Video Transcoder
 CheatSheet
+
+
+
+-----------------
+
+
+
+mas install
+1278508951 (Trello)
+441258766 (Magnet)
+1091189122 (Bear)
+803453959 (Slack)
+585829637 (Todoist)
+462054704 (Microsoft Word)
+462062816 (Microsoft PowerPoint)
+462058435 (Microsoft Excel)
