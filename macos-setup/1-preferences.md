@@ -10,6 +10,7 @@
     - [Finder](#finder)
     - [Desktop](#desktop)
     - [Emojis](#emojis)
+    - [Launchpad](#launchpad)
 2. [Configuration](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/2-configuration.md)
 3. [Applications](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/3-applications.md)
 4. [Local Development](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/4-local-development.md)
@@ -245,3 +246,5 @@ Add this to the favorites:
 € = Euro character
 $ = Dollar character
 ```
+
+### Launchpad

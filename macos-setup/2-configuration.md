@@ -83,3 +83,12 @@ cd $HOME/Projects/development && valet park
 ### MySQL
 
 `mysql_secure_installation`
+
+
+
+
+
+```
+locate [filename]
+git fetch --all && git reset --hard && git pull
+```
