@@ -1,4 +1,4 @@
-[!images/macos_developer_hero.svg]
+![macos developer hero](https://github.com/bartdenhoed/knowledge-base/blob/master/images/macos_developer_hero.svg)
 
 # Knowledge Base - macOS Setup - Home
 
