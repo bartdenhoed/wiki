@@ -3,28 +3,126 @@
 ### Introduction
 
 ### Table of contents
-1. General
-2. Development
-3. Tools
+1. General Usage
+2. Tools
+3. Development
 
 
-### General
+### General Usage
 ##### 1Password 7
 Keeping all my password safe across all my devices.
 
 - URL: https://1password.com/
 - Settings:
-	- General > Show item count in sidebar: Onn
+	- General > Keyboard shortcuts > Show 1Password: Shift + CMD + \
+	- General > Show item count in sidebar: On
 	- Mini > Open 1Password to: Favourites
 	- Mini > Categories: Show in submenu
 	- Security > Require Master Password every: 1 week > 1 day
+	- Security > Lock when amin window is closed: On
 	- Security > Lock after computer is idle for: 5 min > 60 min
 	- Watchtower > Check for vulnerable passwords: On
+	- Notifications > One-Time Passwords: Off
+	- Notifications > Watchtower Alerts: On
 
+##### Google Chrome
+
+- URL: https://www.google.com/chrome/
+- Settinngs:
+	- Menubar > Warn Before Quitting: On
+- Extensions....
+- TODO
+
+##### Pocket Casts
+
+##### Bear
+
+- URL: https://bear.app/
+- Settings:
+	- Themes: Dark Graphite
+##### Signal
+- TODO
+##### Slack
+- TODO
+
+##### Spotify
+- Settings:
+	- Display Options > Show unavailable songs in playlist: On
+	- Playback > Crossfade songs: 10 sec
+	- Startup and Window Behaviour > Open Spotify automatically after you log into the computer: No
+
+##### Todoist
+
+##### Trello
+
+### Tools
 ##### Google Backup and Sync
 Synchronize important files.
 
 - URL: https://www.google.com/drive/download/backup-and-sync/
+- Settings:
+	- Upload folders: Desktop & Download
+
+##### LuLu
+
+
+##### Magnet
+
+##### Tunnelblick
+
+### Development
+##### iTerm
+Best terminal ever.
+
+- URL: https://www.iterm2.com/
+- Settings: 
+	- General > Closing > Quit when all windows are closed
+	- Appearance > General > Theme: Minimal
+	- Appearance > Windows > Show window number inn title bar: Off
+	- Advanced > In the Minimal theme, how different should the background color of the selected tab be from the others: 0.05 > 0.02
+	- Advanced > in The Minimal theme, how prominent should split pane dividers be: 0.2 > 0
+	
+
+##### Firefox
+Only for web development testing.
+
+- URL: https://www.mozilla.org/firefox
+
+##### Postman
+- TODO
+
+##### Sublime Text
+- Settings: [Preferences.sublime-settings]
+- Packages: Theme - One Dark
+
+##### TablePlus
+- TODO
+
+##### Tower
+
+##### Visual Studio Code
+
+------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ##### Firefox
 - Description: Firefox Quantum browser
