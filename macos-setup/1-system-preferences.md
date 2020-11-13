@@ -227,4 +227,5 @@ Add this to the favorites:
 ⏎ = Return key
 ⌫ = Delete key
 € = Euro character
+$ = Dollar character
 ```
