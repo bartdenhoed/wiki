@@ -3,9 +3,11 @@
 ![macos developer hero](https://github.com/bartdenhoed/knowledge-base/blob/master/images/macos_developer_hero.svg)
 
 ### Introduction
-Welcome to my macOS web development setup on my MacBook Pro 16-inch 2019 (macOS 11 Big Sur).
+Welcome to my web development setup for macOS Big Sur. Currently I use this setup on a MacBook Pro 15" (2016) at home and a MacBook Pro 16" (2019) at work.
 
-You will learn my favorite macOS System Preferences, see the applications that I use every day and get the needed development software tools. All steps are detailed described below, but I use personally an automated script to install and configure all them all which can be found in automated-scripts.
+You will learn my favorite macOS preferences, see the applications that I use every day and get the development tools I use mostly for Laravel development. All steps are detailed described below. Also there is an automated script to install and configure most of these steps (under construction).
+
+![macos big sur](https://github.com/bartdenhoed/knowledge-base/blob/master/images/macos_big_sur.png)
 
 ### Table of contents
 0. [**Home**](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/0-home.md)

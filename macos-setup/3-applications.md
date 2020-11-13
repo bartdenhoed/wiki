@@ -12,10 +12,9 @@
 5. [Backup](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/5-backup.md)
 
 ### General Usage
-##### 1Password 7
+##### [1Password 7](https://1password.com/)
 Keeping all my password safe across all my devices.
 
-- URL: https://1password.com/
 - Settings:
 	- General > Keyboard shortcuts > Show 1Password: Shift + CMD + \
 	- General > Show item count in sidebar: On
