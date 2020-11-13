@@ -7,6 +7,8 @@ Welcome to my web development setup for macOS Big Sur. Currently, I use this set
 
 You will learn my favorite macOS preferences, see the applications that I use every day, and get the development tools I use mostly for Laravel development. All steps are detailed described below. Also, there is an automated script to install and configure most of these steps (under construction).
 
+*Tested on version 11.0.1*
+
 ![macos big sur](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/macos_big_sur.png)
 
 ## Table of contents
@@ -54,17 +56,17 @@ In this step you will configure the macOS System Preferences and also other thin
 #### [2. Configuration](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/2-configuration.md)
 Here starts the fun stuff. We're starting with the dotfiles and default directories and configure the terminal.
 
-[image]
+[image: finder]
 
 #### [3. Applications](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/3-applications.md)
 If you used my automated script, all these applications are already installed and we are now going to adjust the settings.
 
-[image]
+[image: launchpad]
 
 #### [4. Local Development](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/4-local-development.md)
 When you're into web development, this is my setup currently mainly for [Laravel](https://laravel.com/).
 
-[image]
+[image: vscode]
 
 #### [5. Backup](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/4-local-development.md)
 A setup is only a good setup if you have good backups. I show you how I've set that up.

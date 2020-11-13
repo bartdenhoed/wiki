@@ -92,3 +92,7 @@ cd $HOME/Projects/development && valet park
 locate [filename]
 git fetch --all && git reset --hard && git pull
 ```
+
+
+Maintenance:
+- https://github.com/kristovatlas/osx-config-check

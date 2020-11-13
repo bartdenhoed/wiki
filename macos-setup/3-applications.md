@@ -469,3 +469,13 @@ mas install
 462054704 (Microsoft Word)
 462062816 (Microsoft PowerPoint)
 462058435 (Microsoft Excel)
+
+
+Google Chrome Canary
+brew cask install homebrew/cask-versions/google-chrome-canary
+brew tap homebrew/cask-versions
+
+
+
+
+dozer
