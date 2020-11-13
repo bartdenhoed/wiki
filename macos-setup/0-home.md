@@ -1,3 +1,5 @@
+[!images/macos_developer_hero.svg]
+
 # Knowledge Base - macOS Setup - Home
 
 ### Introduction
