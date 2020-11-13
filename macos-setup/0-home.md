@@ -1,39 +1,55 @@
-# Knowledge Base - MacOS Setup - Home
+# Knowledge Base - macOS Setup - Home
 
 ### Introduction
-Welcome to my MacOS web development setup on my MacBook Pro 16-inch 2019 (MacOS 11 Big Sur).
+Welcome to my macOS web development setup on my MacBook Pro 16-inch 2019 (macOS 11 Big Sur).
 
-You will learn my favorite MacOS System Preferences, see the applications that I use every day and get the needed development software tools. All steps are detailed described below, but I use personally an automated script to install and configure all them all which can be found in automated-scripts.
-
----
+You will learn my favorite macOS System Preferences, see the applications that I use every day and get the needed development software tools. All steps are detailed described below, but I use personally an automated script to install and configure all them all which can be found in automated-scripts.
 
 ### Table of contents
 0. [**Home**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/0-home.md)
-1. [System Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-system-preferences.md)
-2. [Homebrew](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-homebrew.md)
+    - [Starting point](#starting-point)
+    - [Automated Setup](#automated-setup)
+    - [Preferences](#preferences)
+    - [Configuration](#configuration)
+    - [Applications](#applications)
+    - [Local Development](#local-development)
+    - [Backup](#backup)
+1. [Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
+2. [Configuration](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-configuration.md)
 3. [Applications](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/3-applications.md)
-4. [Configuration](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/4-configuration.md)
-6. [Backup]
+4. [Local Development](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/4-local-development.md)
+5. [Backup](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/5-backup.md)
 
----
-
-### Manual Setup
-1. Setup clean install MacOS 11 Big Sur
-2. Install Xcode Command Line Tools:
-	- `xcode-select --install`
-3. Clone GitHub Repository:
+### Starting point
+1. Fresh installation of macOS 11 Big Sur
+2. You need the Command Line Tools for Xcode (includes `git`, `ssh`, `zip`, `vim` and others)
+```bash
+$ xcode-select --install
+```
+3. Clone GitHub Repository dotfiles:
 	- `git clone https://github.com/bartdenhoed/dotfiles.git .dotfiles`
 	- username: `bartdenhoed`
 	- password: `macos-setup-token`
-4. Follow all steps described in this documentation
+4. Homebrew installation
+The Missing Package Manager for macOS: https://brew.sh/
+```bash
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
----
-
-### Automated Setup
-1. Setup clean install MacOS 11 Big Sur
-2. Run Bootstrap script:
+### Automated Setup???????
+Run Bootstrap script:
 	- `cd .dotfiles`
 	- `./bootstrap`
+
+### Preferences
+
+### Configuration
+
+### Applications
+
+### Local Development
+
+### Backup
 
 ---
 

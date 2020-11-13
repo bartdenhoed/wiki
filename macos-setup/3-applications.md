@@ -1,12 +1,15 @@
-# Knowledge Base - MacOS Setup - Applications
-
-### Introduction
+# Knowledge Base - macOS Setup - Applications
 
 ### Table of contents
-1. General Usage
-2. Tools
-3. Development
-
+0. [Home](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/0-home.md)
+1. [Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
+2. [Configuration](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-configuration.md)
+3. [**Applications**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/3-applications.md)
+    - [General Usage](#general-usage)
+    - [Tools](#tools)
+    - [Development](#development)
+4. [Local Development](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/4-local-development.md)
+5. [Backup](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/5-backup.md)
 
 ### General Usage
 ##### 1Password 7
@@ -75,13 +78,13 @@ Synchronize important files.
 Best terminal ever.
 
 - URL: https://www.iterm2.com/
-- Settings: 
+- Settings:
 	- General > Closing > Quit when all windows are closed
 	- Appearance > General > Theme: Minimal
 	- Appearance > Windows > Show window number inn title bar: Off
 	- Advanced > In the Minimal theme, how different should the background color of the selected tab be from the others: 0.05 > 0.02
 	- Advanced > in The Minimal theme, how prominent should split pane dividers be: 0.2 > 0
-	
+
 
 ##### Firefox
 Only for web development testing.
