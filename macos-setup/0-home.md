@@ -22,12 +22,12 @@ You will learn my favorite macOS preferences, see the applications that I use ev
 5. [Backup](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/5-backup.md)
 
 ## Required steps
-1. Fresh installation of macOS 11 Big Sur
+1. Fresh installation of [macOS 11 Big Sur](https://www.apple.com/macos/big-sur/)
 2. You need the Command Line Tools for Xcode (includes `git`, `ssh`, `zip`, `vim` and other tools)
 ```bash
 $ xcode-select --install
 ```
-3. Cloning my (or your own) dotfiles GitHub Repository:
+3. Cloning my (or your own) dotfiles [GitHub Repository](https://github.com/bartdenhoed/dotfiles):
 ```bash
 $ git clone https://github.com/bartdenhoed/dotfiles.git .dotfiles
 ```
@@ -49,7 +49,7 @@ Now you can proceed step by step and use what appeals to your wishes.
 #### [1. Preferences](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/1-preferences.md)
 In this step you will configure the macOS System Preferences and also other things like the touch bar, dock and launchpad.
 
-[image]
+![screenshot preferences](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/screenshot-preferences.png)
 
 #### [2. Configuration](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/2-configuration.md)
 Here starts the fun stuff. We're starting with the dotfiles and default directories and configure the terminal.
