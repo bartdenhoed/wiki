@@ -6,7 +6,7 @@ Welcome to my macOS web development setup on my MacBook Pro 16-inch 2019 (macOS 
 You will learn my favorite macOS System Preferences, see the applications that I use every day and get the needed development software tools. All steps are detailed described below, but I use personally an automated script to install and configure all them all which can be found in automated-scripts.
 
 ### Table of contents
-0. [**Home**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/0-home.md)
+0. [**Home**](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/0-home.md)
     - [Starting point](#starting-point)
     - [Automated Setup](#automated-setup)
     - [Preferences](#preferences)
@@ -14,11 +14,11 @@ You will learn my favorite macOS System Preferences, see the applications that I
     - [Applications](#applications)
     - [Local Development](#local-development)
     - [Backup](#backup)
-1. [Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
-2. [Configuration](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-configuration.md)
-3. [Applications](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/3-applications.md)
-4. [Local Development](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/4-local-development.md)
-5. [Backup](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/5-backup.md)
+1. [Preferences](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/1-preferences.md)
+2. [Configuration](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/2-configuration.md)
+3. [Applications](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/3-applications.md)
+4. [Local Development](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/4-local-development.md)
+5. [Backup](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/5-backup.md)
 
 ### Starting point
 1. Fresh installation of macOS 11 Big Sur
