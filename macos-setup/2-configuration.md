@@ -45,6 +45,13 @@ $ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME
 #### Vim
 - https://github.com/junegunn/vim-plug
 - https://thevaluable.dev/vim-php-ide
+- https://github.com/tpope/vim-sensible
+```bash
+# mkdir -p ~/.vim/pack/tpope/start
+# cd ~/.vim/pack/tpope/start
+# git clone https://tpope.io/vim/sensible.git
+```
+
 ```bash
 $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

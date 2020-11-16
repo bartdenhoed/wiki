@@ -74,7 +74,7 @@ A setup is only a good setup if you have good backups. I show you how I've set t
 [image]
 
 ## Feedback
-If you have any questions, do't hesitate to email my on contact[at]bartdenhoed.nl.
+If you have any questions, don't hesitate to email my on contact[at]bartdenhoed.nl.
 
 | [![github profile](https://github.com/bartdenhoed/wiki/blob/master/.images/me_pixar_small.png)](https://github.com/bartdenhoed) |
 |---|
