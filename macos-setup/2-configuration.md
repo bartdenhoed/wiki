@@ -23,6 +23,18 @@ Formulas:
 - [htop](https://htop.dev/) - Improved top (interactive process viewer).
 - [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheet for console commands.
 - [trash](https://github.com/ali-rantakari/trash) - CLI tool that moves files or folder to the trash.
+```bash
+# autoconf pkg-config bzip2 oniguruma voor phpbrew
+```
+
+
+Troubleshouting:
+```
+sudo chown -R $(whoami) $(brew --prefix)/*
+
+sudo chown -R $(whoami) $HOME/.config
+```
+
 
 ## Oh My Zsh
 #### Install

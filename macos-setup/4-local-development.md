@@ -11,12 +11,39 @@
 
 
 ## Homebrew formulas
+- php
+- mysql@5.7
+- composer
+- nginx
+- dnsmasq
+
+MySQL:
+```bash
+$ brew link mysql@5.7
+$ brew services start mysql
+$ mysql_secure_installation
+
+```
+
+
+## Laravel Valet
+```bash
+$ composer global require laravel/valet
+$ valet install
+$ valet tld local
+```
+
+Switching PHP versions: https://laravel.com/docs/8.x/valet#php-versions
+`valet park` in directories
+
 
 
 composer
 DOCKER?
 
-https://github.com/phpbrew/phpbrew
+```bash
+# https://github.com/phpbrew/phpbrew
+```
 
 
 ## Docker
