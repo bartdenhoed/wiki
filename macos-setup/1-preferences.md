@@ -1,14 +1,14 @@
-# Knowledge Base - macOS Setup - Preferences
+# Wiki - macOS Setup - Preferences
 
-![screenshot preferences](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/screenshot-preferences.png)
+![screenshot preferences](https://github.com/bartdenhoed/wiki/blob/master/.images/screenshot-preferences.png)
 
 In this step you will configure the macOS System Preferences and also other things like the touch bar, dock and launchpad.
 
-![macos big sur](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/macos_big_sur.png)
+![macos big sur](https://github.com/bartdenhoed/wiki/blob/master/.images/macos_big_sur.png)
 
 ## Table of contents
-0. [Home](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/0-home.md)
-1. [**Preferences**](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/1-preferences.md)
+0. [Home](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/0-home.md)
+1. [**Preferences**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
     - [System Preferences](#system-preferences)
     - [Dock](#dock)
     - [Touch Bar](#touch-bar)
@@ -17,10 +17,10 @@ In this step you will configure the macOS System Preferences and also other thin
     - [Desktop](#desktop)
     - [Emojis](#emojis)
     - [Launchpad](#launchpad)
-2. [Configuration](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/2-configuration.md)
-3. [Applications](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/3-applications.md)
-4. [Local Development](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/4-local-development.md)
-5. [Backup](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/5-backup.md)
+2. [Configuration](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-configuration.md)
+3. [Applications](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/3-applications.md)
+4. [Local Development](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/4-local-development.md)
+5. [Backup](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/5-backup.md)
 
 ## System Preferences
 
@@ -242,14 +242,14 @@ $ killall Dock
 $ defaults delete com.apple.dock
 ```
 
-![dock](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/macos_setup_dock.png)
+![dock](https://github.com/bartdenhoed/wiki/blob/master/.images/macos_setup_dock.png)
 
 ## Touch Bar
-![touchbar normal](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/macos_setup_touchbar_normal.png)
-![touchbar full](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/macos_setup_touchbar_full.png)
+![touchbar normal](https://github.com/bartdenhoed/wiki/blob/master/.images/macos_setup_touchbar_normal.png)
+![touchbar full](https://github.com/bartdenhoed/wiki/blob/master/.images/macos_setup_touchbar_full.png)
 
 ## Menu Bar
-![menubar](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/macos_setup_menubar.png)
+![menubar](https://github.com/bartdenhoed/wiki/blob/master/.images/macos_setup_menubar.png)
 
 ## Finder
 #### Finer Preferences
@@ -277,7 +277,7 @@ $ defaults delete com.apple.dock
 - View > Show Status Bar
 
 #### Sidebar
-![finder sidebar](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/macos_setup_finder_sidebar.png)
+![finder sidebar](https://github.com/bartdenhoed/wiki/blob/master/.images/macos_setup_finder_sidebar.png)
 
 ## Desktop
 - Use Stacks: On
@@ -303,4 +303,4 @@ $ = Dollar character
 
 ## Launchpad
 
-![launchpad](https://github.com/bartdenhoed/knowledge-base/blob/master/.images/macos_setup_launchpad.png)
+![launchpad](https://github.com/bartdenhoed/wiki/blob/master/.images/macos_setup_launchpad.png)

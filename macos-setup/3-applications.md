@@ -1,18 +1,18 @@
-# Knowledge Base - macOS Setup - Applications
+# Wiki - macOS Setup - Applications
 
-### Table of contents
-0. [Home](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/0-home.md)
-1. [Preferences](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/1-preferences.md)
-2. [Configuration](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/2-configuration.md)
-3. [**Applications**](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/3-applications.md)
+## Table of contents
+0. [Home](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/0-home.md)
+1. [Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
+2. [Configuration](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-configuration.md)
+3. [**Applications**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/3-applications.md)
     - [General Usage](#general-usage)
     - [Tools](#tools)
     - [Development](#development)
-4. [Local Development](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/4-local-development.md)
-5. [Backup](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/5-backup.md)
+4. [Local Development](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/4-local-development.md)
+5. [Backup](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/5-backup.md)
 
-### General Usage
-##### [1Password 7](https://1password.com/)
+## General Usage
+#### [1Password 7](https://1password.com/)
 Keeping all my password safe across all my devices.
 
 - Settings:
@@ -27,7 +27,7 @@ Keeping all my password safe across all my devices.
 	- Notifications > One-Time Passwords: Off
 	- Notifications > Watchtower Alerts: On
 
-##### Google Chrome
+#### Google Chrome
 
 - URL: https://www.google.com/chrome/
 - Settinngs:
@@ -35,46 +35,46 @@ Keeping all my password safe across all my devices.
 - Extensions....
 - TODO
 
-##### Pocket Casts
+#### Pocket Casts
 
-##### Bear
+#### Bear
 
 - URL: https://bear.app/
 - Settings:
 	- Themes: Dark Graphite
 ##### Signal
 - TODO
-##### Slack
-- TODO
+#### Slack
+ TODO
 
-##### Spotify
+#### Spotify
 - Settings:
 	- Display Options > Show unavailable songs in playlist: On
 	- Playback > Crossfade songs: 10 sec
 	- Startup and Window Behaviour > Open Spotify automatically after you log into the computer: No
 
-##### Todoist
+#### Todoist
 
-##### Trello
+#### Trello
 
-### Tools
-##### Google Backup and Sync
+## Tools
+#### Google Backup and Sync
 Synchronize important files.
 
 - URL: https://www.google.com/drive/download/backup-and-sync/
 - Settings:
 	- Upload folders: Desktop & Download
 
-##### LuLu
+#### LuLu
 
 
-##### Magnet
+#### Magnet
 
-##### Tunnelblick
+#### Tunnelblick
 
-### Development
-##### iTerm
-Best terminal ever.
+## Development
+#### iTerm
+est terminal ever.
 
 - URL: https://www.iterm2.com/
 - Settings:
@@ -85,24 +85,24 @@ Best terminal ever.
 	- Advanced > in The Minimal theme, how prominent should split pane dividers be: 0.2 > 0
 
 
-##### Firefox
+#### Firefox
 Only for web development testing.
 
 - URL: https://www.mozilla.org/firefox
 
-##### Postman
+#### Postman
 - TODO
 
-##### Sublime Text
+#### Sublime Text
 - Settings: [Preferences.sublime-settings]
 - Packages: Theme - One Dark
 
-##### TablePlus
+#### TablePlus
 - TODO
 
-##### Tower
+#### Tower
 
-##### Visual Studio Code
+#### Visual Studio Code
 
 ------
 
@@ -126,12 +126,12 @@ Only for web development testing.
 
 
 
-##### Firefox
+#### Firefox
 - Description: Firefox Quantum browser
 - URL: https://www.mozilla.org/nl/firefox/
 - Installation: Homebrew `brew cask install firefox`
 
-##### Google Chrome
+#### Google Chrome
 - Description: One fast, simple, and secure browser for all your devices.
 - URL: https://www.google.com/chrome/
 - Installation: Homebrew `brew cask install google-chrome`
@@ -175,34 +175,34 @@ Only for web development testing.
 - Settings:
 	- Chrome > Warn Before Quitting (⌘Q): On
 
-##### Pocket Casts
+#### Pocket Casts
 - Description: The world's most powerful podcast player.
 - URL: https://www.shiftyjelly.com/pocketcasts/
 - Installation: Homebrew `brew cask insntall pocket-casts`
 
-##### Spotify
+#### Spotify
 - Description: Music for everyone.
 - URL: https://www.spotify.com/
 - Installation: Homebrew `brew cask install spotify`
 
-##### STACK
+#### STACK
 - Description: Online storage for everyone.
 - URL: https://www.transip.nl/stack/
 - Installation: Homebrew `brew cask install stack`
 
-##### Todoist
+#### Todoist
 TODO
 
-##### Trello
+#### Trello
 - Description: Project management application.
 - URL: https://trello.com/
 - Installation: App Store `mas install 1278508951`
 
 ---
 
-### Development
+## Development
 ##### iTerm2
-- Description: Terminal emulator for macOS that does amazing things.
+ Description: Terminal emulator for macOS that does amazing things.
 - URL: https://www.iterm2.com/
 - Installation: Homebrew `brew cask install iterm2`
 - Settings: (TODO)
@@ -221,41 +221,41 @@ Advanced > General > Width of left and right margins in terminal panes: 20
 ```
 
 
-##### Postman
+#### Postman
 - Description: Developing APIs is hard Postman makes it easy.
 - URL: https://www.getpostman.com/
 - Installation: Homebrew `brew cask install postman`
 - Settings: (TODO)
 
-##### Sequel Pro
+#### Sequel Pro
 TODO
 
-##### Sublime Text
+#### Sublime Text
 - Description: A sophisticated text editor for code, markup and prose.
 - URL: https://www.sublimetext.com/
 - Installation: Homebrew `brew cask install sublime-text`
 - Settings: (TODO)
 
-##### TablePlus
+#### TablePlus
 TODO
 
-##### Tower
+#### Tower
 - Description: Powerful Git client.
 - URL: https://www.git-tower.com/mac/
 - Installation: Homebrew `brew cask install tower`
 - Settings: (TODO)
 
-##### Tunnelblick
+#### Tunnelblick
 - Description: Free software for OpenVPN.
 - URL: https://tunnelblick.net/
 - Installation: Homebrew `brew cask install tunnelblick`
 
-##### VirtualBox
+#### VirtualBox
 - Description: A free and open-source hosted hypervisor.
 - URL: https://www.virtualbox.org/
 - Installation: Homebrew `brew cask install virtualbox`
 
-##### Visual Studio Code
+#### Visual Studio Code
 - Description: (TODO)
 - URL: (TODO)
 - Installation: Homebrew `brew cask insntall visual-studio-code`
@@ -303,34 +303,34 @@ yzhang.markdown-all-in-one?
 
 ---
 
-### Tools
+## Tools
 ##### Alfred 4
-- Description: Best Spotlight replacer.
+ Description: Best Spotlight replacer.
 - URL: https://www.alfredapp.com/
 - Installation: Homebrew `brew cask install alfred`
 - Settings are synced with STACK/SYNC
 
-##### Browserosaurus
+#### Browserosaurus
 - Description: The browser prompter for macOS.
 - URL: https://browserosaurus.com/
 - Installation: Homebrw `brew cask install browserosaurus`
 
-##### CleanMyMac X
+#### CleanMyMac X
 - Description: The ultimate cleaner for Mac.
 - URL: https://cleanmymac.com/
 - Installation: Homebrew `brew cask install cleanmymac`
 
-##### Dozer
+#### Dozer
 - Description: Hide menu bar icons on macOS
 - URL: https://dozermac.com/
 - Installation: Homebrew `brew cask install dozer`
 
-##### Flux
+#### Flux
 - Description: Software to make your life better.
 - URL: https://justgetflux.com/
 - Installation: Homebrew `brew cask install flux`
 
-##### ForkLift
+#### ForkLift
 - Description: The most advanced dual pane file manager and file transfer client for macOS.
 - URL: https://binarynights.com/
 - Installation: Homebrew `brew cask install forklift`
@@ -341,10 +341,10 @@ https://binarynights.com/manual#fileviewer
 - `defaults write com.apple.finder QuitMenuItem -bool true; killall Finder`
 ```
 
-##### Intel Power Gadget
+#### Intel Power Gadget
 (TODO)
 
-##### iStat Menus
+#### iStat Menus
 - Description: Control and monitor your Mac.
 - URL: https://bjango.com/mac/istatmenus/
 - Installation: Homebrew `brew cask install istat-menus`
@@ -355,12 +355,12 @@ https://binarynights.com/manual#fileviewer
 	- Sensors
 	- Battery/Power
 
-#####  LuLu
+####  LuLu
 - Description: The free, shared-source macOS firewall
 - URL: https://objective-see.com/products/lulu.html
 - Installation: Homebrew `brew cask install lulu`
 
-##### Magnet (TODO)
+#### Magnet (TODO)
 - Description:
 - URL:
 - Installation:
@@ -368,24 +368,24 @@ https://binarynights.com/manual#fileviewer
 	- Others > Next Display: cntr,option,cmd,-> > option,cmd,] (TODO)
 	- Others > Previous Display: cntr,option,cmd,<- > option,cmd,[ (TODO)
 
-##### Unshaky
+#### Unshaky
 TODO
 
 ---
 
-### Social
+## Social
 ##### Noti
 TODO
 
-##### Signal
+#### Signal
 TODO
 
-##### Slack
+#### Slack
 - Description: Business chat application.
 - URL: https://slack.com/
 - Installation: App Store `mas install 803453959`
 
-##### WhatsApp
+#### WhatsApp
 - Description: Simple. Secure. Reliable messaging.
 - URL: https://www.whatsapp.com/
 - Installation: App Store `mas install 1147396723`
@@ -425,8 +425,8 @@ TODO
 
 
 
-### Apple
-##### Safari (TODO)
+## Apple
+#### Safari (TODO)
 Extensions:
 - 1Password
 - Ghostery Lite

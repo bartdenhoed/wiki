@@ -1,4 +1,4 @@
-# Knowledge Base - Development - Laravel
+# Wiki - Development - Laravel
 
 ### JWT
 
@@ -54,7 +54,7 @@ Example project: https://github.com/ZanichelliEditore/laravel-jwt-idp
 - Done: ✅
 
 **Series:**
-- [Laravel 5.7 From Scratch](https://laracasts.com/series/laravel-from-scratch-2018/) 
+- [Laravel 5.7 From Scratch](https://laracasts.com/series/laravel-from-scratch-2018/)
 - [Laravel TDD Birdboard](https://laracasts.com/series/build-a-laravel-app-with-tdd) 🕐
 - [Laravel Explained](https://laracasts.com/series/laravel-explained)
 - [What's New in Laravel 5.8](https://laracasts.com/series/whats-new-in-laravel-5-8)

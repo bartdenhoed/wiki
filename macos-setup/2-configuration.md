@@ -1,17 +1,17 @@
-# Knowledge Base - macOS Setup - Configuration
+# Wiki - macOS Setup - Configuration
 
-### Table of contents
-0. [Home](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/0-home.md)
-1. [Preferences](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/1-preferences.md)
-2. [**Configuration**](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/2-configuration.md)
+## Table of contents
+0. [Home](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/0-home.md)
+1. [Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
+2. [**Configuration**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-configuration.md)
     - [Home symlinks](#home-symlinks)
     - [Directories](#directories)
-3. [Applications](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/3-applications.md)
-4. [Local Development](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/4-local-development.md)
-5. [Backup](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/5-backup.md)
+3. [Applications](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/3-applications.md)
+4. [Local Development](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/4-local-development.md)
+5. [Backup](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/5-backup.md)
 
 
-### Homebrew
+## Homebrew
 Formulas:
 
 - [dockutil](https://github.com/kcrawford/dockutil) - Command line utility for managing macOS dock items.
@@ -24,8 +24,8 @@ Formulas:
 - [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheet for console commands.
 - [trash](https://github.com/ali-rantakari/trash) - CLI tool that moves files or folder to the trash.
 
-### Oh My Zsh
-##### Install
+## Oh My Zsh
+#### Install
 ```bash
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -33,7 +33,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
 Troubleshouting: `chmod a-wx /usr/local/share/zsh`?
 `drw-r--r--   3 bartdenhoed  admin    96B Nov 13 13:16 zsh`
 
-##### Plugins
+#### Plugins
 
 Custom theme and plugins
 ```bash
@@ -42,7 +42,15 @@ $ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:
 $ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-### Home symlinks
+#### Vim
+- https://github.com/junegunn/vim-plug
+- https://thevaluable.dev/vim-php-ide
+```bash
+$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+## Home symlinks
 Dotfiles:
 ```bash
 $ ln -s $HOME/.dotfiles/.editorconfig .editorconfig
@@ -56,7 +64,13 @@ $ ln -s $HOME/.dotfiles/.vimrc .vimrc
 $ ln -s $HOME/.dotfiles/.zshrc .zshrc
 ```
 
-### Directories
+SSH
+```bash
+$ mkdir $HOME/.ssh
+$ ln -s $HOME/.dotfiles/.ssh/config .ssh/config
+```
+
+## Directories
 Extra directories
 ```bash
 $ mkdir $HOME/TEMP
@@ -68,7 +82,7 @@ $ mkdir $HOME/Projects/laravel
 $ mkdir $HOME/Projects/bartproductions
 ```
 
-##### Fonts
+#### Fonts
 ```bash
 $ cp "~/dotfiles/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf" /Library/Fonts/
 ```
@@ -77,7 +91,7 @@ $ cp "~/dotfiles/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf" /Library/Fon
 
 
 
-### Maintenance
+## Maintenance
 - git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull
 - https://github.com/kristovatlas/osx-config-check
 

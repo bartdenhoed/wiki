@@ -1,4 +1,4 @@
-# Knowledge Base - Windows Setup - Applications
+# Wiki - Windows Setup - Applications
 
 ### Package Managers
 - [Chocolatey](https://chocolatey.org/) - The Package Manager for Windows
