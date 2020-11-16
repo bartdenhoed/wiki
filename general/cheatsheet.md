@@ -27,31 +27,20 @@ sql_mode=NO_ENGINE_SUBSTITUTION,ALLOW_INVALID_DATES
 
 
 ## Overige
-URL: http://snazzylabs.com/article/5-killer-macos-tricks-hidden-in-terminal/
-
-DOCK:
-Super-fast animation: defaults write com.apple.dock autohide-time-modifier -float 0.12;
-No animation: defaults write com.apple.dock autohide-time-modifier -int 0;
-Revert to default: defaults delete com.apple.dock autohide-time-modifier;
-
-defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
-
-killall Dock;
-
 
 
 URL: http://snazzylabs.com/tutorial/five-advanced-tricks-for-mac-users/
 
 Tip 1: Screenshot
 defaults write com.apple.screencapture type jpg
- 
+
 Tip 2: Encrypt
 encrypt (change path): openssl enc -aes-256-cbc -e -in {path-in} -out {path-out}
 decrypt (change path): openssl enc -aes-256-cbc -d -in {path-in} -out {path-out}
- 
+
 Tip 3: Updates
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
- 
+
 Tip 5: Prevent sleep
 caffeinate -i -t 3600
 
@@ -109,3 +98,20 @@ usage: youtube-dl --extract-audio --audio-format mp3 [url] (mp3)
 
 brew cleanup
 xdebug
+
+
+
+
+
+
+
+
+
+
+### File permissions
+- `find . -type d -exec chmod 755 {} \;`
+- `find . -type f -exec chmod 644 {} \;`
+
+
+locate [filename]
+git fetch --all && git reset --hard && git pull

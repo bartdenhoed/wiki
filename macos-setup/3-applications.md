@@ -201,12 +201,6 @@ TODO
 ---
 
 ### Development
-##### Gas Mask
-- Description: Hosts file manager for OS X.
-- URL: https://github.com/2ndalpha/gasmask
-- Installation: Homebrew `brew cask install gas-mask`
-- Settings: (TODO)
-
 ##### iTerm2
 - Description: Terminal emulator for macOS that does amazing things.
 - URL: https://www.iterm2.com/
@@ -474,8 +468,31 @@ mas install
 Google Chrome Canary
 brew cask install homebrew/cask-versions/google-chrome-canary
 brew tap homebrew/cask-versions
-
+blockblock netiquette
 
 
 
 dozer
+twitter
+whatsapp
+discord
+drawio
+notion
+
+
+
+OUD:
+- browserosaurus?
+- cleanmymac?
+- forklift?
+- intel-power-gadget?
+- istat-menus?
+- macpass?
+- noti?
+- osxfuse?
+- skype?
+- steam?
+
+
+
+https://github.com/lra/mackup

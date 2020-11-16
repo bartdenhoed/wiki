@@ -10,89 +10,75 @@
 4. [Local Development](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/4-local-development.md)
 5. [Backup](https://github.com/bartdenhoed/knowledge-base/blob/master/macos-setup/5-backup.md)
 
-### Home symlinks
-- Zshrc: `ln -s ~/dotfiles/.zshrc .zshrc`
-- Git Config: `ln -s ~/dotfiles/.gitconfig .gitconfig`
-- Git Ignore: `ln -s ~/dotfiles/.gitignore .gitignore`
-- Editor Config: `ln -s ~/dotfiles/.editorconfig .editorconfig`
 
+### Homebrew
+Formulas:
 
-### Directories
-- Temp:  `mkdir ~/Temp`
-- STACK: `mkdir ~/STACK`
-- Projects: `mkdir ~/Projects`
-	- General:
-		- `mkdir ~/Projects/general`
-		- `echo "Projects/general" >> ~/Projects/general/index.html`
-	- Development:
-		- `mkdir ~/Projects/development`
-		- `echo "Projects/development" >> ~/Projects/development/index.html`
-	- [---]:
-		- `mkdir ~/Projects/[---]`
-		- `echo "Projects/[---]" >> ~/Projects/[---]/index.html`
-```
-git directories?
-```
-
+- [dockutil](https://github.com/kcrawford/dockutil) - Command line utility for managing macOS dock items.
+- [mas](https://github.com/mas-cli/mas) - Command line interface for the Mac App Store.
+- [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth.
+- [youtube-dl](https://github.com/l1ving/youtube-dl) - Download videos from youtube.com or other video platforms.
+- [wget](https://www.gnu.org/software/wget/) - Internet file retriever.
+- [bat](https://github.com/sharkdp/bat) - A cat(1) clone with syntax highlighting and Git integration.
+- [htop](https://htop.dev/) - Improved top (interactive process viewer).
+- [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheet for console commands.
+- [trash](https://github.com/ali-rantakari/trash) - CLI tool that moves files or folder to the trash.
 
 ### Oh My Zsh
-##### Themes
-- `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
-
-##### Extensions
-```
-# colored-man-pages
-# TODO ??????????
-# extract
-# TODO ??????????
-# zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-# zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+##### Install
+```bash
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+Troubleshouting: `chmod a-wx /usr/local/share/zsh`?
+`drw-r--r--   3 bartdenhoed  admin    96B Nov 13 13:16 zsh`
+
+##### Plugins
+
+Custom theme and plugins
+```bash
+$ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting ?
+$ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+### Home symlinks
+Dotfiles:
+```bash
+$ ln -s $HOME/.dotfiles/.editorconfig .editorconfig
+$ ln -s $HOME/.dotfiles/.gitattributes .gitattributes
+$ ln -s $HOME/.dotfiles/.gitconfig .gitconfig
+$ ln -s $HOME/.dotfiles/.gitignore .gitignore
+$ ln -s $HOME/.dotfiles/.mackup.cfg .mackup.cfg
+$ ln -s $HOME/.dotfiles/.my.cnf .my.cnf
+$ ln -s $HOME/.dotfiles/.p10k.zsh .p10k.zsh
+$ ln -s $HOME/.dotfiles/.vimrc .vimrc
+$ ln -s $HOME/.dotfiles/.zshrc .zshrc
+```
+
+### Directories
+Extra directories
+```bash
+$ mkdir $HOME/TEMP
+$ mkdir $HOME/Projects
+
+$ mkdir $HOME/Projects/avetica
+$ mkdir $HOME/Projects/testing
+$ mkdir $HOME/Projects/laravel
+$ mkdir $HOME/Projects/bartproductions
+```
 
 ##### Fonts
-```
-cp "~/dotfiles/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf" /Library/Fonts/
-```
-
-### Laravel
-
-
-### Laravel Valet
-##### Install
-- `composer global require laravel/valet`
-
-##### Parks
-```
-# Parks
-cd $HOME/Projects && valet park
-
-# github
-# laravel
-# moodle
-cd $HOME/Projects/development && valet park
-
-
-```
-
-##### Drivers
-- `ln -s "$startdir/.valet/Drivers/HugeValetDriver.php" $HOME/.config/valet/Drivers/HugeValetDriver.php`
-
-### MySQL
-
-`mysql_secure_installation`
-
-
-
-
-
-```
-locate [filename]
-git fetch --all && git reset --hard && git pull
+```bash
+$ cp "~/dotfiles/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf" /Library/Fonts/
 ```
 
 
-Maintenance:
+
+
+
+### Maintenance
+- git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull
 - https://github.com/kristovatlas/osx-config-check
+
+TODO: Vimrc
