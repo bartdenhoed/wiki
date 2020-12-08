@@ -18,6 +18,7 @@ Formulas:
 - [mas](https://github.com/mas-cli/mas) - Command line interface for the Mac App Store.
 - [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth.
 - [youtube-dl](https://github.com/l1ving/youtube-dl) - Download videos from youtube.com or other video platforms.
+- [ffmpeg] - Needed for youtube-dl!
 - [wget](https://www.gnu.org/software/wget/) - Internet file retriever.
 - [bat](https://github.com/sharkdp/bat) - A cat(1) clone with syntax highlighting and Git integration.
 - [htop](https://htop.dev/) - Improved top (interactive process viewer).
