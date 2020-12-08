@@ -26,17 +26,17 @@ In this step you will configure the macOS System Preferences and also other thin
 
 #### Apple ID
 - iCloud > iCloud Drive: System Preferences
->
 - iCloud > Photos: On
->
+- iCloud > Contacts: On
+- iCloud > Calendars: On
+- iCloud > Reminders: On
+- iCloud > Notes: On
 - iCloud > Safari: On
->
 - iCloud > Keychain: On
->
 - iCloud > Find My Mac: On
->
+- iCloud > Stocks: On
+- iCloud > Home: On
 - iCloud > Siri: On
->
 - iCloud > Optimise Mac Storage: Off
 
 #### General
