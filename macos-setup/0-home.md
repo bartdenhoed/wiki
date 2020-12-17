@@ -13,10 +13,10 @@ You will learn my favorite macOS preferences, see the applications that I use ev
 
 ## Table of contents
 0. [**Home**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/0-home.md)
-    - [Required steps](#required-steps)
-    - [Automated script](#automated-script)
-    - [Next steps](#next-steps)
-    - [Feedback](#feedback)
+    * [Required steps](#required-steps)
+    * [Automated script](#automated-script)
+    * [Next steps](#next-steps)
+    * [Feedback](#feedback)
 1. [Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
 2. [Configuration](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-configuration.md)
 3. [Applications](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/3-applications.md)

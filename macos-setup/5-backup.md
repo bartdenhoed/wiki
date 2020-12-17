@@ -7,7 +7,7 @@
 3. [Applications](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/3-applications.md)
 4. [Local Development](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/4-local-development.md)
 5. [**Backup**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/5-backup.md)
-    - [Time Machine](#time-machine)
+    * [Time Machine](#time-machine)
 
 
 ### Time Machine

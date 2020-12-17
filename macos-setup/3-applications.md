@@ -5,9 +5,9 @@
 1. [Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
 2. [Configuration](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-configuration.md)
 3. [**Applications**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/3-applications.md)
-    - [General Usage](#general-usage)
-    - [Tools](#tools)
-    - [Development](#development)
+    * [General Usage](#general-usage)
+    * [Tools](#tools)
+    * [Development](#development)
 4. [Local Development](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/4-local-development.md)
 5. [Backup](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/5-backup.md)
 
@@ -15,25 +15,27 @@
 #### [1Password 7](https://1password.com/)
 Keeping all my password safe across all my devices.
 
-- Settings:
-	- General > Keyboard shortcuts > Show 1Password: Shift + CMD + \
-	- General > Show item count in sidebar: On
-	- Mini > Open 1Password to: Favourites
-	- Mini > Categories: Show in submenu
-	- Security > Require Master Password every: 1 week > 1 day
-	- Security > Lock when amin window is closed: On
-	- Security > Lock after computer is idle for: 5 min > 60 min
-	- Watchtower > Check for vulnerable passwords: On
-	- Notifications > One-Time Passwords: Off
-	- Notifications > Watchtower Alerts: On
+* Settings:
+	* General > Keyboard shortcuts > Show 1Password: Shift + CMD + \
+	* General > Show item count in sidebar: On
+	* Mini > Open 1Password to: Favourites
+	* Mini > Categories: Show in submenu
+	* Security > Require Master Password every: 1 week > 1 day
+	* Security > Lock when amin window is closed: On
+	* Security > Lock after computer is idle for: 5 min > 60 min
+	* Watchtower > Check for vulnerable passwords: On
+	* Notifications > One-Time Passwords: Off
+	* Notifications > Watchtower Alerts: On
 
 #### Google Chrome
 
-- URL: https://www.google.com/chrome/
-- Settinngs:
-	- Menubar > Warn Before Quitting: On
-- Extensions....
-- TODO
+* URL: https://www.google.com/chrome/
+* Settinngs:
+	* Menubar > Warn Before Quitting: On
+* Extensions....
+* TODO
+
+#### Mimestream
 
 #### Mimestream
 
@@ -41,19 +43,19 @@ Keeping all my password safe across all my devices.
 
 #### Bear
 
-- URL: https://bear.app/
-- Settings:
-	- Themes: Dark Graphite
+* URL: https://bear.app/
+* Settings:
+	* Themes: Dark Graphite
 ##### Signal
-- TODO
+* TODO
 #### Slack
  TODO
 
 #### Spotify
-- Settings:
-	- Display Options > Show unavailable songs in playlist: On
-	- Playback > Crossfade songs: 10 sec
-	- Startup and Window Behaviour > Open Spotify automatically after you log into the computer: No
+* Settings:
+	* Display Options > Show unavailable songs in playlist: On
+	* Playback > Crossfade songs: 10 sec
+	* Startup and Window Behaviour > Open Spotify automatically after you log into the computer: No
 
 #### Todoist
 
@@ -63,9 +65,9 @@ Keeping all my password safe across all my devices.
 #### Google Backup and Sync
 Synchronize important files.
 
-- URL: https://www.google.com/drive/download/backup-and-sync/
-- Settings:
-	- Upload folders: Desktop & Download
+* URL: https://www.google.com/drive/download/backup-and-sync/
+* Settings:
+	* Upload folders: Desktop & Download
 
 #### LuLu
 
@@ -78,29 +80,29 @@ Synchronize important files.
 #### iTerm
 est terminal ever.
 
-- URL: https://www.iterm2.com/
-- Settings:
-	- General > Closing > Quit when all windows are closed
-	- Appearance > General > Theme: Minimal
-	- Appearance > Windows > Show window number inn title bar: Off
-	- Advanced > In the Minimal theme, how different should the background color of the selected tab be from the others: 0.05 > 0.02
-	- Advanced > in The Minimal theme, how prominent should split pane dividers be: 0.2 > 0
+* URL: https://www.iterm2.com/
+* Settings:
+	* General > Closing > Quit when all windows are closed
+	* Appearance > General > Theme: Minimal
+	* Appearance > Windows > Show window number inn title bar: Off
+	* Advanced > In the Minimal theme, how different should the background color of the selected tab be from the others: 0.05 > 0.02
+	* Advanced > in The Minimal theme, how prominent should split pane dividers be: 0.2 > 0
 
 
 #### Firefox
 Only for web development testing.
 
-- URL: https://www.mozilla.org/firefox
+* URL: https://www.mozilla.org/firefox
 
 #### Postman
-- TODO
+* TODO
 
 #### Sublime Text
-- Settings: [Preferences.sublime-settings]
-- Packages: Theme - One Dark
+* Settings: [Preferences.sublime-settings]
+* Packages: Theme - One Dark
 
 #### TablePlus
-- TODO
+* TODO
 
 #### Tower
 
@@ -129,85 +131,85 @@ Only for web development testing.
 
 
 #### Firefox
-- Description: Firefox Quantum browser
-- URL: https://www.mozilla.org/nl/firefox/
-- Installation: Homebrew `brew cask install firefox`
+* Description: Firefox Quantum browser
+* URL: https://www.mozilla.org/nl/firefox/
+* Installation: Homebrew `brew cask install firefox`
 
 #### Google Chrome
-- Description: One fast, simple, and secure browser for all your devices.
-- URL: https://www.google.com/chrome/
-- Installation: Homebrew `brew cask install google-chrome`
-- Extensions: (TODO)
+* Description: One fast, simple, and secure browser for all your devices.
+* URL: https://www.google.com/chrome/
+* Installation: Homebrew `brew cask install google-chrome`
+* Extensions: (TODO)
 ```
  Extensions (Home & Work)
-- [1Password X Beta – Password Manager](https://chrome.google.com/webstore/detail/1password-x-beta-%E2%80%93-passwo/khgocmkkpikpnmmkgmdnfckapcdkgfaf)
-- [Application Launcher for Drive (by Google)](https://chrome.google.com/webstore/detail/application-launcher-for/lmjegmlicamnimmfhcmpkclmigmmcbeh)
-- [Google Docs Offline](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi)
-- [Google Search Keyboard Shortcuts](https://chrome.google.com/webstore/detail/google-search-keyboard-sh/iobmefdldoplhmonnnkchglfdeepnfhd)
-- [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
-- [Password Alert](https://chrome.google.com/webstore/detail/password-alert/noondiphcddnnabmjcihcjfbhfklnnep)
-- [Password Checkup](https://chrome.google.com/webstore/detail/password-checkup/pncabnpcffmalkkjpajodfhijclecjno)
-- [Suspicious Site Reporter](https://chrome.google.com/webstore/detail/suspicious-site-reporter/jknemblkbdhdcpllfgbfekkdciegfboi)
-- [Tracking Token Stripper](https://chrome.google.com/webstore/detail/tracking-token-stripper/kcpnkledgcbobhkgimpbmejgockkplob)
-- [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [Website IP](https://chrome.google.com/webstore/detail/website-ip/ghbmhlgniedlklkpimlibbaoomlpacmk)
+* [1Password X Beta – Password Manager](https://chrome.google.com/webstore/detail/1password-x-beta-%E2%80%93-passwo/khgocmkkpikpnmmkgmdnfckapcdkgfaf)
+* [Application Launcher for Drive (by Google)](https://chrome.google.com/webstore/detail/application-launcher-for/lmjegmlicamnimmfhcmpkclmigmmcbeh)
+* [Google Docs Offline](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi)
+* [Google Search Keyboard Shortcuts](https://chrome.google.com/webstore/detail/google-search-keyboard-sh/iobmefdldoplhmonnnkchglfdeepnfhd)
+* [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
+* [Password Alert](https://chrome.google.com/webstore/detail/password-alert/noondiphcddnnabmjcihcjfbhfklnnep)
+* [Password Checkup](https://chrome.google.com/webstore/detail/password-checkup/pncabnpcffmalkkjpajodfhijclecjno)
+* [Suspicious Site Reporter](https://chrome.google.com/webstore/detail/suspicious-site-reporter/jknemblkbdhdcpllfgbfekkdciegfboi)
+* [Tracking Token Stripper](https://chrome.google.com/webstore/detail/tracking-token-stripper/kcpnkledgcbobhkgimpbmejgockkplob)
+* [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+* [Website IP](https://chrome.google.com/webstore/detail/website-ip/ghbmhlgniedlklkpimlibbaoomlpacmk)
 
  Extensions (Home)
-- [Todoist: To-Do list and Task Manager](https://chrome.google.com/webstore/detail/todoist-to-do-list-and-ta/jldhpllghnbhlbpcmnajkpdmadaolakh)
+* [Todoist: To-Do list and Task Manager](https://chrome.google.com/webstore/detail/todoist-to-do-list-and-ta/jldhpllghnbhlbpcmnajkpdmadaolakh)
 
  Extensions (Work)
-- [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
-- [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)
-- [Page load time](https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig)
+* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
+* [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)
+* [Page load time](https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig)
 
  Extensions (Disabled)
-- [Checker Plus for Gmail™](https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj)
-- [Google Keep Chrome Extension](https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi)
-- [Instapaper](https://chrome.google.com/webstore/detail/instapaper/ldjkgaaoikpmhmkelcgkgacicjfbofhh)
-- [Search by Image (by Google)](https://chrome.google.com/webstore/detail/search-by-image-by-google/dajedkncpodkggklbegccjpmnglmnflm)
-- [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha)
-- [The New Tab - Customize Your Chrome Start Page](https://chrome.google.com/webstore/detail/the-new-tab-customize-you/ddjdamcnphfdljlojajeoiogkanilahc)
+* [Checker Plus for Gmail™](https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj)
+* [Google Keep Chrome Extension](https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi)
+* [Instapaper](https://chrome.google.com/webstore/detail/instapaper/ldjkgaaoikpmhmkelcgkgacicjfbofhh)
+* [Search by Image (by Google)](https://chrome.google.com/webstore/detail/search-by-image-by-google/dajedkncpodkggklbegccjpmnglmnflm)
+* [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha)
+* [The New Tab - Customize Your Chrome Start Page](https://chrome.google.com/webstore/detail/the-new-tab-customize-you/ddjdamcnphfdljlojajeoiogkanilahc)
 
  Chrome Apps (Home & work)
-- [Docs](https://chrome.google.com/webstore/detail/docs/aohghmighlieiainnegkcijnfilokake)
-- [Sheets](https://chrome.google.com/webstore/detail/sheets/felcaaldnbdncclmgdcncolpebgiejap)
-- [Slides](https://chrome.google.com/webstore/detail/slides/aapocclcgogkmnckokdopfmhonfmgoek)
+* [Docs](https://chrome.google.com/webstore/detail/docs/aohghmighlieiainnegkcijnfilokake)
+* [Sheets](https://chrome.google.com/webstore/detail/sheets/felcaaldnbdncclmgdcncolpebgiejap)
+* [Slides](https://chrome.google.com/webstore/detail/slides/aapocclcgogkmnckokdopfmhonfmgoek)
 ```
-- Menu Bar: (TODO)
-- Settings:
-	- Chrome > Warn Before Quitting (⌘Q): On
+* Menu Bar: (TODO)
+* Settings:
+	* Chrome > Warn Before Quitting (⌘Q): On
 
 #### Pocket Casts
-- Description: The world's most powerful podcast player.
-- URL: https://www.shiftyjelly.com/pocketcasts/
-- Installation: Homebrew `brew cask insntall pocket-casts`
+* Description: The world's most powerful podcast player.
+* URL: https://www.shiftyjelly.com/pocketcasts/
+* Installation: Homebrew `brew cask insntall pocket-casts`
 
 #### Spotify
-- Description: Music for everyone.
-- URL: https://www.spotify.com/
-- Installation: Homebrew `brew cask install spotify`
+* Description: Music for everyone.
+* URL: https://www.spotify.com/
+* Installation: Homebrew `brew cask install spotify`
 
 #### STACK
-- Description: Online storage for everyone.
-- URL: https://www.transip.nl/stack/
-- Installation: Homebrew `brew cask install stack`
+* Description: Online storage for everyone.
+* URL: https://www.transip.nl/stack/
+* Installation: Homebrew `brew cask install stack`
 
 #### Todoist
 TODO
 
 #### Trello
-- Description: Project management application.
-- URL: https://trello.com/
-- Installation: App Store `mas install 1278508951`
+* Description: Project management application.
+* URL: https://trello.com/
+* Installation: App Store `mas install 1278508951`
 
 ---
 
 ## Development
 ##### iTerm2
  Description: Terminal emulator for macOS that does amazing things.
-- URL: https://www.iterm2.com/
-- Installation: Homebrew `brew cask install iterm2`
-- Settings: (TODO)
+* URL: https://www.iterm2.com/
+* Installation: Homebrew `brew cask install iterm2`
+* Settings: (TODO)
 
 ```
 General > Closing > Quit when all windows are closed: On
@@ -224,44 +226,44 @@ Advanced > General > Width of left and right margins in terminal panes: 20
 
 
 #### Postman
-- Description: Developing APIs is hard Postman makes it easy.
-- URL: https://www.getpostman.com/
-- Installation: Homebrew `brew cask install postman`
-- Settings: (TODO)
+* Description: Developing APIs is hard Postman makes it easy.
+* URL: https://www.getpostman.com/
+* Installation: Homebrew `brew cask install postman`
+* Settings: (TODO)
 
 #### Sequel Pro
 TODO
 
 #### Sublime Text
-- Description: A sophisticated text editor for code, markup and prose.
-- URL: https://www.sublimetext.com/
-- Installation: Homebrew `brew cask install sublime-text`
-- Settings: (TODO)
+* Description: A sophisticated text editor for code, markup and prose.
+* URL: https://www.sublimetext.com/
+* Installation: Homebrew `brew cask install sublime-text`
+* Settings: (TODO)
 
 #### TablePlus
 TODO
 
 #### Tower
-- Description: Powerful Git client.
-- URL: https://www.git-tower.com/mac/
-- Installation: Homebrew `brew cask install tower`
-- Settings: (TODO)
+* Description: Powerful Git client.
+* URL: https://www.git-tower.com/mac/
+* Installation: Homebrew `brew cask install tower`
+* Settings: (TODO)
 
 #### Tunnelblick
-- Description: Free software for OpenVPN.
-- URL: https://tunnelblick.net/
-- Installation: Homebrew `brew cask install tunnelblick`
+* Description: Free software for OpenVPN.
+* URL: https://tunnelblick.net/
+* Installation: Homebrew `brew cask install tunnelblick`
 
 #### VirtualBox
-- Description: A free and open-source hosted hypervisor.
-- URL: https://www.virtualbox.org/
-- Installation: Homebrew `brew cask install virtualbox`
+* Description: A free and open-source hosted hypervisor.
+* URL: https://www.virtualbox.org/
+* Installation: Homebrew `brew cask install virtualbox`
 
 #### Visual Studio Code
-- Description: (TODO)
-- URL: (TODO)
-- Installation: Homebrew `brew cask insntall visual-studio-code`
-- Extensions: (TODO)
+* Description: (TODO)
+* URL: (TODO)
+* Installation: Homebrew `brew cask insntall visual-studio-code`
+* Extensions: (TODO)
 
 Extensions
 `code --list-extensions`
@@ -301,74 +303,74 @@ ecmel.vscode-html-css
 yzhang.markdown-all-in-one?
 `code --install-extension dawhite.mustache`
 ```
-- Settings: (TODO)
+* Settings: (TODO)
 
 ---
 
 ## Tools
 ##### Alfred 4
  Description: Best Spotlight replacer.
-- URL: https://www.alfredapp.com/
-- Installation: Homebrew `brew cask install alfred`
-- Settings are synced with STACK/SYNC
+* URL: https://www.alfredapp.com/
+* Installation: Homebrew `brew cask install alfred`
+* Settings are synced with STACK/SYNC
 
 #### Browserosaurus
-- Description: The browser prompter for macOS.
-- URL: https://browserosaurus.com/
-- Installation: Homebrw `brew cask install browserosaurus`
+* Description: The browser prompter for macOS.
+* URL: https://browserosaurus.com/
+* Installation: Homebrw `brew cask install browserosaurus`
 
 #### CleanMyMac X
-- Description: The ultimate cleaner for Mac.
-- URL: https://cleanmymac.com/
-- Installation: Homebrew `brew cask install cleanmymac`
+* Description: The ultimate cleaner for Mac.
+* URL: https://cleanmymac.com/
+* Installation: Homebrew `brew cask install cleanmymac`
 
 #### Dozer
-- Description: Hide menu bar icons on macOS
-- URL: https://dozermac.com/
-- Installation: Homebrew `brew cask install dozer`
+* Description: Hide menu bar icons on macOS
+* URL: https://dozermac.com/
+* Installation: Homebrew `brew cask install dozer`
 
 #### Flux
-- Description: Software to make your life better.
-- URL: https://justgetflux.com/
-- Installation: Homebrew `brew cask install flux`
+* Description: Software to make your life better.
+* URL: https://justgetflux.com/
+* Installation: Homebrew `brew cask install flux`
 
 #### ForkLift
-- Description: The most advanced dual pane file manager and file transfer client for macOS.
-- URL: https://binarynights.com/
-- Installation: Homebrew `brew cask install forklift`
-- Settings: (TODO)
+* Description: The most advanced dual pane file manager and file transfer client for macOS.
+* URL: https://binarynights.com/
+* Installation: Homebrew `brew cask install forklift`
+* Settings: (TODO)
 ```
 https://binarynights.com/manual#fileviewer
 
-- `defaults write com.apple.finder QuitMenuItem -bool true; killall Finder`
+* `defaults write com.apple.finder QuitMenuItem -bool true; killall Finder`
 ```
 
 #### Intel Power Gadget
 (TODO)
 
 #### iStat Menus
-- Description: Control and monitor your Mac.
-- URL: https://bjango.com/mac/istatmenus/
-- Installation: Homebrew `brew cask install istat-menus`
-- Settings: (TODO)
-	- CPU & GPU
-	- Memory
-	- Network
-	- Sensors
-	- Battery/Power
+* Description: Control and monitor your Mac.
+* URL: https://bjango.com/mac/istatmenus/
+* Installation: Homebrew `brew cask install istat-menus`
+* Settings: (TODO)
+	* CPU & GPU
+	* Memory
+	* Network
+	* Sensors
+	* Battery/Power
 
 ####  LuLu
-- Description: The free, shared-source macOS firewall
-- URL: https://objective-see.com/products/lulu.html
-- Installation: Homebrew `brew cask install lulu`
+* Description: The free, shared-source macOS firewall
+* URL: https://objective-see.com/products/lulu.html
+* Installation: Homebrew `brew cask install lulu`
 
 #### Magnet (TODO)
-- Description:
-- URL:
-- Installation:
-- Settings:
-	- Others > Next Display: cntr,option,cmd,-> > option,cmd,] (TODO)
-	- Others > Previous Display: cntr,option,cmd,<- > option,cmd,[ (TODO)
+* Description:
+* URL:
+* Installation:
+* Settings:
+	* Others > Next Display: cntr,option,cmd,-> > option,cmd,] (TODO)
+	* Others > Previous Display: cntr,option,cmd,<- > option,cmd,[ (TODO)
 
 #### Unshaky
 TODO
@@ -383,14 +385,14 @@ TODO
 TODO
 
 #### Slack
-- Description: Business chat application.
-- URL: https://slack.com/
-- Installation: App Store `mas install 803453959`
+* Description: Business chat application.
+* URL: https://slack.com/
+* Installation: App Store `mas install 803453959`
 
 #### WhatsApp
-- Description: Simple. Secure. Reliable messaging.
-- URL: https://www.whatsapp.com/
-- Installation: App Store `mas install 1147396723`
+* Description: Simple. Secure. Reliable messaging.
+* URL: https://www.whatsapp.com/
+* Installation: App Store `mas install 1147396723`
 
 
 

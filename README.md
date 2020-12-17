@@ -12,6 +12,7 @@ Welcome to my personal Knowledge Base.
     - Android Setup
     - iPhone Setup
 - Development
+    - [Laravel](https://github.com/bartdenhoed/wiki/blob/master/development/laravel.md)
 - Linux
 - Security
 
