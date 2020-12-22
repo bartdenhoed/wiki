@@ -479,7 +479,6 @@ blockblock netiquette
 dozer
 twitter
 whatsapp
-discord
 drawio
 notion
 

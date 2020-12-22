@@ -17,6 +17,7 @@ NEW:
 * phpunit
 * ffmpeg - Needed for youtube-dl!
 
+* [mackup](https://github.com/lra/mackup) - Keep your application settings in sync.
 * [dockutil](https://github.com/kcrawford/dockutil) - Command line utility for managing macOS dock items.
 * [mas](https://github.com/mas-cli/mas) - Command line interface for the Mac App Store.
 * [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth.
@@ -46,8 +47,13 @@ sudo chown -R $(whoami) $HOME/.config
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-Troubleshouting: `chmod a-wx /usr/local/share/zsh`?
-`drw-r--r--   3 bartdenhoed  admin    96B Nov 13 13:16 zsh`
+Troubleshooting
+```
+$ sudo chown -R $(whoami) $(brew --prefix)/*         (!important)
+$ chmod a-wx /usr/local/share/zsh ??????????
+$ sudo chown -R $(whoami) /usr/local/share/zsh
+$ chmod u+w /usr/local/share/zsh
+```
 
 #### Plugins
 
@@ -107,7 +113,7 @@ $ mkdir $HOME/Projects/bartproductions
 
 #### Fonts
 ```bash
-$ cp "~/dotfiles/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf" /Library/Fonts/
+$ cp $HOME/.dotfiles/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf /Library/Fonts/
 ```
 
 

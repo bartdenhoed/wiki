@@ -27,6 +27,7 @@ In this step you will configure the macOS System Preferences and also other thin
 #### Apple ID
 * iCloud > iCloud Drive: System Preferences
 * iCloud > Photos: On
+* iCloud > Mail: Off
 * iCloud > Contacts: On
 * iCloud > Calendars: On
 * iCloud > Reminders: On
@@ -34,7 +35,7 @@ In this step you will configure the macOS System Preferences and also other thin
 * iCloud > Safari: On
 * iCloud > Keychain: On
 * iCloud > Find My Mac: On
-* iCloud > Stocks: On
+* iCloud > Stocks: Off
 * iCloud > Home: On
 * iCloud > Siri: On
 * iCloud > Optimise Mac Storage: Off
@@ -43,7 +44,7 @@ In this step you will configure the macOS System Preferences and also other thin
 * Appearance: Dark
 * Show scroll bars: Automatically based on mouse or trackpad > When scrolling
 * Prefer tabs: in full screen > always
-* Allow Handoff between this Mac annd your iCloud devices: Off
+* Allow Handoff between this Mac and your iCloud devices: Off
 
 #### Desktop & Screen Saver
 * Desktop > Desktop Pictures: Big Sur Graphic
@@ -143,7 +144,7 @@ In this step you will configure the macOS System Preferences and also other thin
 * Keyboard > Turn keyboard backlight off after: 5 secs > 1 min
 * Keyboard > Touch Bar shows: App Controls > Spaces
 * Keyboard > Press Fn key to: Show F1, F2, etc. Keys > Expand Control Strip
-* Keyboard > Customize Control Strip: Quick Actions, Screenshot, Space, Keyboard Brightness, Space, Media, Space, Brightness Slider, Mute, Volume Slider
+* Keyboard > Customize Control Strip: Quick Actions, Screenshot, Space, Keyboard Brightness, Space, Brightness Slider, Mute, Volume Slider, Space, Media
 * Keyboard > Modifier Keys: Caps Lock > Escape
 >
 * Text > Correct spelling automatically: Off
@@ -158,7 +159,7 @@ In this step you will configure the macOS System Preferences and also other thin
 * Shortcuts > Spotlight > Show Finder search window: Off
 * Shortcuts > Use keyboard navigation to move focus between controls: On
 >
-* Input Sources > U.S. International - PC & Dutch
+* Input Sources > Dutch
 * Input Sources > Show Input menu in menu bar: Off
 >
 * Dictation > Shortcut: Off
@@ -180,10 +181,12 @@ In this step you will configure the macOS System Preferences and also other thin
 
 #### Displays
 * Display > Resolution: Scaled - More Space
-* Display > True Tone: Off
 >
 * Night Shift > Schedule: Custom (from 00:00 to 07:00)
 * Night Shift > Color Temperature: More Warm
+
+#### Sidecar
+- 
 
 #### Battery
 * Battery > Turn display off after: 2 min > 10 min
@@ -259,6 +262,7 @@ $ defaults delete com.apple.dock
 * Sidebar > Favorites: AirDrop, Applications, Desktop, Downloads, [home folder]
 * Sidebar > iCloud: Off
 * Sidebar > Locations: [Mac name], External disks, 'CDs, DVDs, and iOS Devices', Cloud Storage, Bonjour computers, Connected servers
+* Sidebar > Tags: Off
 >
 * Advanced > Show all filename extensions: On
 * Advanced > Show warning before changing an extension: Off
@@ -268,8 +272,19 @@ $ defaults delete com.apple.dock
 * Advanced > Keep folders on top > On Desktop: On
 * Advanced > When performing a search: Search the Current Folder
 
-#### View Options
-* [Mac name] > Show item info: On
+#### View Options (homedir defaults)
+* Always open in list view: On
+* Browse in list view: On
+>
+* Group By: Kind
+* Sort By: Name
+>
+* Show Columns: Date Modified, Size, Kind
+>
+* Use relative dates: On
+* Calculate all sizes: On
+* Show icon preview: On
+* Show Library Folder: On
 
 #### Menu bar
 * View > Show Tab Bar
@@ -304,3 +319,26 @@ $ = Dollar character
 ## Launchpad
 
 ![launchpad](https://github.com/bartdenhoed/wiki/blob/master/.images/macos_setup_launchpad.png)
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+
+# Save screenshots to the desktop
+defaults write com.apple.screencapture location -string "${HOME}/Desktop"
+
+# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
+defaults write com.apple.screencapture type -string "png"
+
+# Disable shadow in screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
