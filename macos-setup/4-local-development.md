@@ -11,7 +11,7 @@
 
 
 ## Homebrew formulas
-* php
+* php@7.4
 * mysql@5.7
 * composer
 * nginx
