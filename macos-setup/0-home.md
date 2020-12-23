@@ -15,7 +15,7 @@ You will learn my favorite macOS preferences, see the applications that I use ev
 0. [**Home**](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/0-home.md)
     * [Required steps](#required-steps)
     * [Automated script](#automated-script)
-    * [Next steps](#next-steps)
+    * [Manual setup](#manual-setup)
     * [Feedback](#feedback)
 1. [Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
 2. [Configuration](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/2-configuration.md)
@@ -31,7 +31,7 @@ $ xcode-select --install
 ```
 3. Cloning my (or your own) dotfiles [GitHub Repository](https://github.com/bartdenhoed/dotfiles):
 ```bash
-$ git clone https://github.com/bartdenhoed/dotfiles.git .dotfiles
+$ git clone https://github.com/bartdenhoed/dotfiles.git $HOME/.dotfiles
 ```
 4. [Homebrew](https://brew.sh/) installation (The Missing Package Manager for macOS)
 ```bash
@@ -41,11 +41,11 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 ## Automated script
 For further setup, you can use my automated bootstrap script or manually go through the next steps.
 ```bash
-$ cd .dotfiles
+$ cd $HOME/.dotfiles
 $ ./bootstrap
 ```
 
-## Next steps
+## Manual setup
 Now you can proceed step by step and use what appeals to your wishes.
 
 #### [1. Preferences](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/1-preferences.md)
