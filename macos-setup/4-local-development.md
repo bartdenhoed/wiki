@@ -1,3 +1,8 @@
+TODO:
+- npm
+
+
+
 # Wiki - macOS Setup - Local Development
 
 ## Table of contents
@@ -39,6 +44,7 @@ $ valet park $HOME/Projects/testing
 
 ```bash
 $ ln -s $HOME/.dotfiles/.valet/Drivers/HugeValetDriver.php $HOME/.config/valet/Drivers/HugeValetDriver.php
+$ ln -s $HOME/.dotfiles/.valet/Drivers/MoodleValetDriver.php $HOME/.config/valet/Drivers/MoodleValetDriver.php
 ```
 
 #### Laravel Installer
