@@ -93,3 +93,34 @@ Database version control.
 
 #### Samples
 * https://github.com/jivanrij/laravel-samples
+
+
+
+
+
+
+
+
+
+
+-------------
+
+
+## Laracon 2021
+
+- https://onramp.dev/
+
+### Diving the Queue
+
+- Single Jobs
+- Chain Jobs (https://laravel.com/docs/master/queues#job-chaining)
+- Batch Jobs ()
+
+
+### The final Laravel Service Container talk
+### Routing Laravel
+### Laravel Update
+### Understanding Laravel broadcasting
+### Understanding Foundation: What ties everything together
+### Doing small things with Livewire & Alphine
+### Laravel's Artisan Console component
