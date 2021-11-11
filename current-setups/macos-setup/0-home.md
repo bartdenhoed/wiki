@@ -29,7 +29,7 @@ You will learn my favorite macOS preferences, see the applications that I use ev
 ```bash
 xcode-select --install
 ```
-3. Cloning my (or your own) dotfiles [GitHub Repository](https://github.com/bartdenhoed/dotfiles):
+3. Cloning my (or your own) dotfiles [Dotfiles Template Repository](https://github.com/bartdenhoed/dotfiles-template):
 ```bash
 git clone https://github.com/bartdenhoed/dotfiles.git $HOME/.dotfiles
 ```

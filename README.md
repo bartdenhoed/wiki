@@ -26,6 +26,7 @@ Welcome to my personal Knowledge Base.
     - [XSS](/security/xss.md)
 
 ## Repositories
+- [Dotfiles template](https://github.com/bartdenhoed/dotfiles-template)
 - [Dotfiles](https://github.com/bartdenhoed/dotfiles) (Private)
 
 ## Feedback
