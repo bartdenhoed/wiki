@@ -23,19 +23,17 @@ Here starts the fun stuff. We're starting with the dotfiles and default director
 * [bat](https://github.com/sharkdp/bat) - Clone of cat with syntax highlighting and Git integration.
 * [curl](https://curl.se/) - Get a file from an HTTP, HTTPS or FTP server.
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs with diff-highlight and more.
-<!-- * [dockutil](https://github.com/kcrawford/dockutil) - Command line utility for managing macOS dock items. -->
-<!-- * [dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) - Lightweight DNS forwarder and DHCP server. -->
+* [dockutil](https://github.com/kcrawford/dockutil) - Command line utility for managing macOS dock items.
 * [ffmpeg](https://github.com/FFmpeg/FFmpeg) - Play, record, convert, and stream audio and video (required for converting videos with youtube-dl).
-<!-- * [fontconfig](https://wiki.freedesktop.org/www/Software/fontconfig/) - XML-based font configuration API for X Windows -->
 * [htop](https://htop.dev/) - Improved top (interactive process viewer).
 * [mackup](https://github.com/lra/mackup) - Keep your application settings in sync.
 * [mas](https://github.com/mas-cli/mas) - Command line interface for the Mac App Store.
 * [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth.
 * [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheet for console commands.
 * [trash](https://github.com/ali-rantakari/trash) - CLI tool that moves files or folder to the trash.
+* [tree](https://formulae.brew.sh/formula/tree) - Display directories as trees (with optional color/HTML output).
 * [wget](https://www.gnu.org/software/wget/) - Internet file retriever.
 * [youtube-dl](https://github.com/l1ving/youtube-dl) - Download videos from youtube.com or other video platforms.
-
 
 ## Shell
 #### Oh My Zsh

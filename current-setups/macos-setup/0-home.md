@@ -67,7 +67,7 @@ When you're into web development, this is my setup mainly for [Laravel](https://
 
 <img src="/.images/macos_setup_vscode.png" width="500px" alt="macos setup vscode">
 
-#### [5. Backup](/current-setups/macos-setup/4-local-development.md)
+#### [5. Backup](/current-setups/macos-setup/5-backup.md)
 A setup is only a good setup if you have good backups. I show you how I've set that up.
 
 <img src="/.images/macos_setup_backup.png" width="500px" alt="macos setup backup">
