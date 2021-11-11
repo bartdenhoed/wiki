@@ -12,16 +12,16 @@ You will learn my favorite macOS preferences, see the applications that I use ev
 <img src="/.images/macos_monterey.png" width="200px" alt="macos monterey">
 
 ## Table of contents
-0. [**Home**](/macos-setup/0-home.md)
+0. [**Home**](/current-setups/macos-setup/0-home.md)
     * [Required steps](#required-steps)
     * [Automated script](#automated-script)
     * [Manual setup](#manual-setup)
     * [Feedback](#feedback)
-1. [Configuration](/macos-setup/1-configuration.md)
-2. [Preferences](/macos-setup/2-preferences.md)
-3. [Applications](/macos-setup/3-applications.md)
-4. [Local Development](/macos-setup/4-local-development.md)
-5. [Backup](/macos-setup/5-backup.md)
+1. [Configuration](/current-setups/macos-setup/1-configuration.md)
+2. [Preferences](/current-setups/macos-setup/2-preferences.md)
+3. [Applications](/current-setups/macos-setup/3-applications.md)
+4. [Local Development](/current-setups/macos-setup/4-local-development.md)
+5. [Backup](/current-setups/macos-setup/5-backup.md)
 
 ## Required steps
 1. Fresh installation of [macOS 12 Monterey](https://www.apple.com/macos/monterey/)
@@ -47,27 +47,27 @@ For further setup, you can use my automated bootstrap script or manually go thro
 ## Manual setup
 Now you can proceed step by step and use what appeals to your wishes.
 
-#### [1. Configuration](/macos-setup/1-configuration.md)
+#### [1. Configuration](/current-setups/macos-setup/1-configuration.md)
 Here starts the fun stuff. We're starting with the dotfiles and default directories and configure the terminal.
 
 <img src="/.images/macos_setup_iterm_folders.png" width="500px" alt="macos setup iterm folders">
 
-#### [2. Preferences](/macos-setup/2-preferences.md)
+#### [2. Preferences](/current-setups/macos-setup/2-preferences.md)
 In this step you will configure the macOS System Preferences and also other things like the touch bar, dock and launchpad.
 
 <img src="/.images/macos_setup_preferences.png" width="500px" alt="macos setup preferences">
 
-#### [3. Applications](/macos-setup/3-applications.md)
+#### [3. Applications](/current-setups/macos-setup/3-applications.md)
 If you used my automated script, all these applications are already installed and we are now going to adjust the settings.
 
 <img src="/.images/macos_setup_launchpad.png" width="500px" alt="macos setup launchpad">
 
-#### [4. Local Development](/macos-setup/4-local-development.md)
+#### [4. Local Development](/current-setups/macos-setup/4-local-development.md)
 When you're into web development, this is my setup mainly for [Laravel](https://laravel.com/).
 
 <img src="/.images/macos_setup_vscode.png" width="500px" alt="macos setup vscode">
 
-#### [5. Backup](/macos-setup/4-local-development.md)
+#### [5. Backup](/current-setups/macos-setup/4-local-development.md)
 A setup is only a good setup if you have good backups. I show you how I've set that up.
 
 <img src="/.images/macos_setup_backup.png" width="500px" alt="macos setup backup">

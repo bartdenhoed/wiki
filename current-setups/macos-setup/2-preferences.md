@@ -5,9 +5,9 @@
 In this step you will configure the macOS System Preferences and also other things like the touch bar, dock and launchpad.
 
 ## Table of contents
-0. [Home](/macos-setup/0-home.md)
-1. [Configuration](/macos-setup/1-configuration.md)
-2. [**Preferences**](/macos-setup/2-preferences.md)
+0. [Home](/current-setups/macos-setup/0-home.md)
+1. [Configuration](/current-setups/macos-setup/1-configuration.md)
+2. [**Preferences**](/current-setups/macos-setup/2-preferences.md)
     * [System Preferences](#system-preferences)
     * [Dock](#dock)
     * [Touch Bar](#touch-bar)
@@ -17,9 +17,9 @@ In this step you will configure the macOS System Preferences and also other thin
     * [Emojis](#emojis)
     * [Launchpad](#launchpad)
     * [Feedback](#feedback)
-3. [Applications](/macos-setup/3-applications.md)
-4. [Local Development](/macos-setup/4-local-development.md)
-5. [Backup](/macos-setup/5-backup.md)
+3. [Applications](/current-setups/macos-setup/3-applications.md)
+4. [Local Development](/current-setups/macos-setup/4-local-development.md)
+5. [Backup](/current-setups/macos-setup/5-backup.md)
 
 ## System Preferences
 

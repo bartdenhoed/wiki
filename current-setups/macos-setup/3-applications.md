@@ -5,17 +5,17 @@
 If you used my automated script, all these applications are already installed and we are now going to adjust the settings.
 
 ## Table of contents
-0. [Home](/macos-setup/0-home.md)
-1. [Configuration](/macos-setup/1-configuration.md)
-2. [Preferences](/macos-setup/2-preferences.md)
-3. [**Applications**](/macos-setup/3-applications.md)
+0. [Home](/current-setups/macos-setup/0-home.md)
+1. [Configuration](/current-setups/macos-setup/1-configuration.md)
+2. [Preferences](/current-setups/macos-setup/2-preferences.md)
+3. [**Applications**](/current-setups/macos-setup/3-applications.md)
     * [General Usages](#general-usages)
     * [Tools](#tools)
     * [Development](#development)
     * [Design](#design)
     * [Tips](#tips)
-4. [Local Development](/macos-setup/4-local-development.md)
-5. [Backup](/macos-setup/5-backup.md)
+4. [Local Development](/current-setups/macos-setup/4-local-development.md)
+5. [Backup](/current-setups/macos-setup/5-backup.md)
 
 ## General Usages
 #### [1Password](https://1password.com/)
