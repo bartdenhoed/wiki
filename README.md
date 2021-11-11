@@ -5,30 +5,32 @@ Welcome to my personal Knowledge Base.
 
 ## Table of contents
 - General
-    - [CheatSheet](https://github.com/bartdenhoed/wiki/blob/master/general/cheatsheet.md)
-- Current Setup
-    - [macOS Setup](https://github.com/bartdenhoed/wiki/blob/master/macos-setup/0-home.md)
-    - Windows Setup
-    - Android Setup
-    - iPhone Setup
+    - [CheatSheet](/general/cheatsheet.md)
+    - [Portfolio](/general/portfolio.md)
+- Current Setups
+    - [macOS Setup](/current-setups/macos-setup/0-home.md)
+    - [Windows Setup](/current-setups/windows-setup/0-home.md)
+    - [Android Setup](/current-setups/android-setup/0-home.md)
+    - [iPhone Setup](/current-setups/iphone-setup/0-home.md)
 - Development
-    - [Laravel](https://github.com/bartdenhoed/wiki/blob/master/development/laravel.md)
+    - [PHP](/development/php.md)
+    - [Laravel](/development/laravel.md)
+    - [Moodle](/development/moodle.md)
+    - [JavaScript](/development/javascript.md)
+    - [HTML/CSS](/development/html_css.md)
+    - [Bash](/development/bash.md)
 - Linux
+    - [OverTheWire](/linux/OverTheWire.md)
 - Security
+    - [HTTP](/security/http.md)
+    - [XSS](/security/xss.md)
 
 ## Repositories
 - [Dotfiles](https://github.com/bartdenhoed/dotfiles) (Private)
 
-## Tips & Tricks
-- https://github.com/dylanaraps/pure-bash-bible
-
-## TODO
-- https://github.com/webpro/dotfiles
-- https://github.com/mathiasbynens/dotfiles
-
 ## Feedback
 If you have any questions, don't hesitate to email my on contact[at]bartdenhoed.nl.
 
-| [![github profile](https://github.com/bartdenhoed/wiki/blob/master/.images/me_pixar_small.png)](https://github.com/bartdenhoed) |
+| [![github profile](/.images/me_pixar_small.png)](https://github.com/bartdenhoed) |
 |---|
 | [Bart den Hoed](https://github.com/bartdenhoed) |
