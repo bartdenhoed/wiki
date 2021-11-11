@@ -221,11 +221,11 @@ mas install 1017470484
 Best terminal ever.
 
 * Settings:
-	* General > Closing > Quit when all windows are closed
-	* Appearance > General > Theme: Minimal
-	* Appearance > Windows > Show window number inn title bar: Off
-	* Advanced > In the Minimal theme, how different should the background color of the selected tab be from the others: 0.05 > 0.02
-	* Advanced > in The Minimal theme, how prominent should split pane dividers be: 0.2 > 0
+	* General > Closing > Quit when all windows are closed: `On`
+	* Appearance > General > Theme: `Minimal`
+	* Appearance > Windows > Show window number in title bar: `Off`
+	* Advanced > In the Minimal theme, how different should the background color of the selected tab be from the others: `0.02`
+	* Advanced > in The Minimal theme, how prominent should split pane dividers be: `0`
 
 ```bash
 brew install --cask iterm2
