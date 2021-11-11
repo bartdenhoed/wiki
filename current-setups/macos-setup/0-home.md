@@ -1,6 +1,6 @@
 # Wiki - macOS Setup - Home
 
-<img src="/.images/macos_developer_hero.png" width="500px" alt="macos developer hero">
+<img src="/.images/macos_developer_hero.svg" width="500px" alt="macos developer hero">
 
 ## Introduction
 Welcome to my web development setup for macOS Monterey. Currently, I use this setup on a MacBook Pro 15" (2016) at home and a MacBook Pro 16" (2019) at work.
