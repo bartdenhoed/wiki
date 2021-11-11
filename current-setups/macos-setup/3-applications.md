@@ -1,9 +1,13 @@
 # Wiki - macOS Setup - Applications
 
+<img src="/.images/macos_setup_launchpad.png" width="500px" alt="macos setup launchpad">
+
+If you used my automated script, all these applications are already installed and we are now going to adjust the settings.
+
 ## Table of contents
 0. [Home](/macos-setup/0-home.md)
-1. [Configuration](/macos-setup/2-configuration.md)
-2. [Preferences](/macos-setup/1-preferences.md)
+1. [Configuration](/macos-setup/1-configuration.md)
+2. [Preferences](/macos-setup/2-preferences.md)
 3. [**Applications**](/macos-setup/3-applications.md)
     * [General Usages](#general-usages)
     * [Tools](#tools)

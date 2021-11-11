@@ -4,8 +4,6 @@
 
 In this step you will configure the macOS System Preferences and also other things like the touch bar, dock and launchpad.
 
-<img src="/.images/macos_monterey.png" width="200px" alt="macos monterey">
-
 ## Table of contents
 0. [Home](/macos-setup/0-home.md)
 1. [Configuration](/macos-setup/1-configuration.md)

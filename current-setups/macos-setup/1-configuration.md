@@ -1,5 +1,9 @@
 # Wiki - macOS Setup - Configuration
 
+<img src="/.images/macos_setup_iterm_folders.png" width="500px" alt="macos setup iterm folders">
+
+Here starts the fun stuff. We're starting with the dotfiles and default directories and configure the terminal.
+
 ## Table of contents
 0. [Home](/macos-setup/0-home.md)
 1. [**Configuration**](/macos-setup/1-configuration.md)

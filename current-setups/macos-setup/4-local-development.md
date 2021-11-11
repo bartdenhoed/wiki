@@ -1,9 +1,13 @@
 # Wiki - macOS Setup - Local Development
 
+<img src="/.images/macos_setup_vscode.png" width="500px" alt="macos setup vscode">
+
+When you're into web development, this is my setup mainly for [Laravel](https://laravel.com/).
+
 ## Table of contents
 0. [Home](/macos-setup/0-home.md)
-1. [Configuration](/macos-setup/2-configuration.md)
-2. [Preferences](/macos-setup/1-preferences.md)
+1. [Configuration](/macos-setup/1-configuration.md)
+2. [Preferences](/macos-setup/2-preferences.md)
 3. [Applications](/macos-setup/3-applications.md)
 4. [**Local Development**](/macos-setup/4-local-development.md)
     * [Required Software](#required-software)
