@@ -33,6 +33,10 @@ Keeping all my password safe across all my devices.
 	* Notifications > One-Time Passwords: Off
 	* Notifications > Watchtower Alerts: On
 
+```bash
+brew install --cask 1password
+```
+
 #### [Google Chrome](https://www.google.com/chrome/)
 Best browser for webdevelopment.
 
@@ -52,70 +56,165 @@ Best browser for webdevelopment.
 	* [Tracking Token Stripper](https://chrome.google.com/webstore/detail/tracking-token-stripper/kcpnkledgcbobhkgimpbmejgockkplob)
 	* [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 	* [Website IP](https://chrome.google.com/webstore/detail/website-ip/ghbmhlgniedlklkpimlibbaoomlpacmk)
->
 	* [Google Meet Enhancement Suite](https://chrome.google.com/webstore/detail/google-meet-enhancement-s/ljojmlmdapmnibgflmmminacbjebjpno)
 	* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
 	* [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 	* [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
 
+```bash
+brew install --cask google-chrome
+```
+
 #### [Google Chrome Canary](https://www.google.com/intl/en/chrome/canary/)
+
+```bash
+brew install --cask homebrew/cask-versions/google-chrome-canary
+```
 
 #### [Mimestream](https://mimestream.com/)
 Favorite email client for Gmail.
 
+```bash
+brew install --cask mimestream
+```
+
 #### [Pocket Casts](https://www.pocketcasts.com/)
 Cross-platform podcast client.
+
+```bash
+brew install --cask pocket-casts
+```
 
 #### [Bear](https://bear.app/)
 Bear is perfect for creating notes with Markdown.
 
+```bash
+mas install 1091189122
+```
+
 #### [Signal](https://signal.org/)
+
+```bash
+brew install --cask signal
+```
 
 #### [Slack](http://slack.com/)
 
+```bash
+mas install 803453959
+```
+
 #### [Spotify](https://spotify.com)
+
+```bash
+brew install --cask spotify
+```
 
 #### [Trello](https://trello.com/)
 
+```bash
+mas install 1278508951
+```
+
 #### [WhatsApp](https://www.whatsapp.com/)
+
+```bash
+mas install 1147396723
+```
 
 #### [Discord](https://discord.com/)
 
+```bash
+brew install --cask discord
+```
+
 #### [VLC](https://www.videolan.org/index.nl.html)
 
+```bash
+brew install --cask vlc
+```
+
 #### [Brave Browser](https://brave.com/)
+
+```bash
+brew install --cask brave-browser
+```
 
 #### [Firefox](https://www.mozilla.org/firefox)
 Only for web development testing.
 
+```bash
+brew install --cask firefox
+```
+
 ## Tools
 #### [Google Drive](https://www.google.com/drive/download/)
 Synchronize all my important files.
+
+```bash
+brew install --cask google-drive
+```
 
 <!-- #### [BlockBlock](https://objective-see.com/products/blockblock.html) -->
 
 #### [LuLu](https://objective-see.com/products/lulu.html)
 LuLu is the free macOS firewall.
 
+```bash
+brew install --cask lulu
+```
+
 #### [Magnet](https://magnet.crowdcafe.com/)
 Organize Your Workspace.
 
+```bash
+mas install 441258766
+```
+
 #### [Netiquette](https://objective-see.com/products/netiquette.html)
+
+```bash
+brew install --cask netiquette
+```
 
 #### [Tunnelblick](https://tunnelblick.net/)
 Free software for OpenVPN on macOS.
 
+```bash
+brew install --cask tunnelblick
+```
+
 #### [BalenaEtcher](https://www.balena.io/etcher/)
+
+```bash
+brew install --cask lulu
+```
 
 #### [Bartender](https://www.macbartender.com/)
 Organize your menu bar apps.
 
+```bash
+brew install --cask bartender
+```
+
 #### [Browserosaurus](https://browserosaurus.com/)
 The browser prompter for macOS.
 
+```bash
+brew install --cask browserosaurus
+```
+
 #### [Raycast](https://www.raycast.com/)
 
+```bash
+brew install --cask raycast
+```
+
 #### [Next Meeting](https://apps.apple.com/us/app/next-meeting/id1017470484?mt=12)
+
+```bash
+mas install 1017470484
+```
 
 ## Development
 #### [iTerm2](https://iterm2.com/)
@@ -128,38 +227,91 @@ Best terminal ever.
 	* Advanced > In the Minimal theme, how different should the background color of the selected tab be from the others: 0.05 > 0.02
 	* Advanced > in The Minimal theme, how prominent should split pane dividers be: 0.2 > 0
 
+```bash
+brew install --cask iterm2
+```
+
 #### [Sublime Text](https://www.sublimetext.com/)
 TODO:
 * Settings: [Preferences.sublime-settings]
 * Packages: Theme - One Dark
 
+```bash
+brew install --cask sublime-text
+```
+
 #### [TablePlus](https://tableplus.com/)
+
+```bash
+brew install --cask tableplus
+```
 
 #### [Tower](https://www.git-tower.com/)
 
+```bash
+brew install --cask tower
+```
+
 #### [VirtualBox](https://www.virtualbox.org/)
+
+```bash
+brew install --cask virtualbox
+```
 
 #### [Visual Studio Code](https://code.visualstudio.com/)
 
+```bash
+brew install --cask visual-studio-code
+```
+
 #### [Insomnia](https://insomnia.rest/)
+
+```bash
+brew install --cask insomnia
+```
 
 #### [PHP Monitor](https://github.com/nicoverbruggen/phpmon)
 
+
 #### [DBngin](https://dbngin.com/)
+
+```bash
+brew install --cask dbngin
+```
 
 #### [Tinkerwell](https://tinkerwell.app/)
 
+```bash
+brew install --cask tinkerwell
+```
+
 #### [Docker](https://docker.com)
+
+```bash
+brew install --cask docker
+```
 
 #### [Ray](https://myray.app/)
 
+```bash
+brew install --cask ray
+```
+
 ## Design
 #### [Draw.io](https://app.diagrams.net/)
+
+```bash
+brew install drawio
+```
 
 ## Tips
 
 #### [CleanMyMac X](https://cleanmymac.com/)
 Mac cleaner.
+
+```bash
+brew install cleanmymac
+```
 
 #### [ForkLift](https://binarynights.com/)
 ```bash
@@ -172,7 +324,15 @@ $ defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
 
 #### [iStat Menus](https://bjango.com/mac/istatmenus/)
 
+```bash
+brew install istat-menus
+```
+
 #### [Unshaky](https://github.com/aahung/Unshaky)
+
+```bash
+brew install unshaky
+```
 
 #### [MacPass](https://macpassapp.org/)
 A KeePass client for macOS.

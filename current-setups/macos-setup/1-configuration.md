@@ -12,6 +12,7 @@ Here starts the fun stuff. We're starting with the dotfiles and default director
     * [Dotfiles](#dotfiles)
     * [Home directories](#home-directories)
     * [Fonts](#fonts)
+    * [Screenshots](#screenshots)
     * [Feedback](#feedback)
 2. [Preferences](/current-setups/macos-setup/2-preferences.md)
 3. [Applications](/current-setups/macos-setup/3-applications.md)
@@ -24,7 +25,6 @@ Here starts the fun stuff. We're starting with the dotfiles and default director
 * [curl](https://curl.se/) - Get a file from an HTTP, HTTPS or FTP server.
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs with diff-highlight and more.
 * [dockutil](https://github.com/kcrawford/dockutil) - Command line utility for managing macOS dock items.
-* [ffmpeg](https://github.com/FFmpeg/FFmpeg) - Play, record, convert, and stream audio and video (required for converting videos with youtube-dl).
 * [htop](https://htop.dev/) - Improved top (interactive process viewer).
 * [mackup](https://github.com/lra/mackup) - Keep your application settings in sync.
 * [mas](https://github.com/mas-cli/mas) - Command line interface for the Mac App Store.
