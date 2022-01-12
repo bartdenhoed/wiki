@@ -187,7 +187,7 @@ brew install --cask tunnelblick
 #### [BalenaEtcher](https://www.balena.io/etcher/)
 
 ```bash
-brew install --cask lulu
+brew install --cask balenaetcher
 ```
 
 #### [Bartender](https://www.macbartender.com/)

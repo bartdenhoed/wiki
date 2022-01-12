@@ -78,3 +78,21 @@ Using for development (SQLite)
 
 ## Laravel Sail
 Using for acceptation test (MySQL)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+brew install npm
+npm install --global cross-env
