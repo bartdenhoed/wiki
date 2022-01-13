@@ -37,7 +37,7 @@ In this step you will configure the macOS System Preferences and also other thin
     - [x] Find My Mac
     - [ ] Stocks
     - [x] Home
-    - [ ] Siri
+    - [x] Siri
 >
 * Media & Purchases > Use Touch ID for Purchases: `On`
 
@@ -49,6 +49,12 @@ In this step you will configure the macOS System Preferences and also other thin
 * Sidebar icon size: `Large`
 * Show scroll bars: `When scrolling`
 * Prefer tabs: `always` when opening documents
+
+```bash
+defaults write NSGlobalDomain AppleInterfaceStyle "Dark"
+defaults write NSGlobalDomain NSTableViewDefaultSizeMode 3
+defaults write NSGlobalDomain AppleReduceDesktopTinting
+```
 
 #### Desktop & Screen Saver
 * Desktop > Desktop Pictures: [Apple September Event 2021 - California Streaming](/.images/macos_background.png)
@@ -83,7 +89,6 @@ In this step you will configure the macOS System Preferences and also other thin
 * General > Advanced > Dates > Short: `01-06-2021`
 
 #### Notifications & Focus
-* Focus > Do Not Disturb > Turn On Automatically: `23:00 - 07:00`
 * Focus > Work > Turn On Automatically: `09:00 - 17:00`
 
 #### Internet Acconts
@@ -129,16 +134,18 @@ In this step you will configure the macOS System Preferences and also other thin
 * Sound Effects > Alert volume: `75%`
 
 #### Touch ID
-* Add fingers
+-
 
 #### Keyboard
 * Keyboard > Key Repeat: `Fast`
 * Keyboard > Delay Until Repeat: `Short`
 * Keyboard > Turn keyboard backlight off after: `1 min`
-* Keyboard > Touch Bar shows: `Spaces`
+* Keyboard > Touch Bar shows: `App Controls`
 * Keyboard > Press fn key to: `Show Emoji & Symbols`
 * Keyboard > Press and hold fn key to: `Show App Controls`
-* Keyboard > Customize Control Strip: Quick Actions, Screenshot, Space, Keyboard Brightness, Space, Brightness Slider, Mute, Volume Slider, Space, Media
+* Keyboard > Customize Control Strip
+    - Control Strip: `Quick Actions, Brightness Slider, Volume Slider, Play/Pauze`
+    - Expanded Control Strip: `Quick Actions, Show Desktop, Space, Keyboard Brightness, Space, Brightness Slider, Volume Slider, Mute, Space, Media`
 * Keyboard > Modifier Keys > Caps Lock (⇪) Key: `⎋ Escape`
 >
 * Text > Correct spelling automatically: `Off`
@@ -189,6 +196,7 @@ In this step you will configure the macOS System Preferences and also other thin
 * Battery > Low power mode: `On`
 >
 * Power Adapter > Turn display off after: `30 min`
+* Power Adapter > Prevent your Mac from automatically sleeping when the display is off: `On`
 
 #### Date & Time
 -
@@ -335,7 +343,7 @@ Add this to the favorites:
 ⏎ = Return key
 ⌫ = Delete key
 € = Euro character
-= Dollar character
+$ = Dollar character
 ```
 
 ## Launchpad

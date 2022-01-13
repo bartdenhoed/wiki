@@ -20,8 +20,8 @@ When you're into web development, this is my setup mainly for [Laravel](https://
 ```bash
 # PHP
 $ brew install php
+$ brew install php@8.0
 $ brew install php@7.4
-$ brew install php@7.2
 
 # Composer
 $ brew install composer

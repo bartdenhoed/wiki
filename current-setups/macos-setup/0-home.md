@@ -7,7 +7,7 @@ Welcome to my web development setup for macOS Monterey. Currently, I use this se
 
 You will learn my favorite macOS preferences, see the applications that I use every day, and get the development tools I use mostly for Moodle & Laravel development. All steps are detailed described below. Also, there is an automated script to install and configure most of these steps.
 
-*Tested on macOS version 12.0.1*
+*Tested on macOS version 12.1*
 
 <img src="/.images/macos_monterey.png" width="200px" alt="macos monterey">
 
@@ -25,6 +25,9 @@ You will learn my favorite macOS preferences, see the applications that I use ev
 
 ## Required steps
 1. Fresh installation of [macOS 12 Monterey](https://www.apple.com/macos/monterey/)
+```bash
+sudo softwareupdate -i -a
+```
 2. You need the Command Line Tools for Xcode (includes `git`, `ssh`, `zip`, `vim` and other tools)
 ```bash
 xcode-select --install
@@ -41,7 +44,7 @@ git clone https://github.com/bartdenhoed/dotfiles.git $HOME/.dotfiles
 ## Automated script
 For further setup, you can use my automated bootstrap script or manually go through the next steps. Currently there are no scripts for the macOS System Preferences, so there for you need to follow the manual setup.
 ```bash
-/bin/bash $HOME/.dotfiles/automated-scripts/bootstrap
+/bin/bash $HOME/.dotfiles/script/macos-installation/bootstrap
 ```
 
 ## Manual setup

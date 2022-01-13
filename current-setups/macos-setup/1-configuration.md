@@ -33,7 +33,11 @@ Here starts the fun stuff. We're starting with the dotfiles and default director
 * [trash](https://github.com/ali-rantakari/trash) - CLI tool that moves files or folder to the trash.
 * [tree](https://formulae.brew.sh/formula/tree) - Display directories as trees (with optional color/HTML output).
 * [wget](https://www.gnu.org/software/wget/) - Internet file retriever.
-* [youtube-dl](https://github.com/l1ving/youtube-dl) - Download videos from youtube.com or other video platforms.
+* [youtube-dl](https://youtube-dl.org/) - Download videos from youtube.com or other video platforms.
+
+```bash
+brew install bat curl diff-so-fancy dockutil htop mackup mas speedtest-cli tldr trash tree wget youtube-dl
+```
 
 ## Shell
 #### Oh My Zsh
@@ -76,15 +80,15 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```bash
 mv $HOME/.zshrc $HOME/.zshrc.backup
 
-ln -s $HOME/.dotfiles/files/.editorconfig $HOME/.editorconfig
-ln -s $HOME/.dotfiles/files/.gitattributes $HOME/.gitattributes
-ln -s $HOME/.dotfiles/files/.gitconfig $HOME/.gitconfig
-ln -s $HOME/.dotfiles/files/.gitignore $HOME/.gitignore
-ln -s $HOME/.dotfiles/files/.mackup.cfg $HOME/.mackup.cfg
-ln -s $HOME/.dotfiles/files/.my.cnf $HOME/.my.cnf
-ln -s $HOME/.dotfiles/files/.p10k.zsh $HOME/.p10k.zsh
-ln -s $HOME/.dotfiles/files/.vimrc $HOME/.vimrc
-ln -s $HOME/.dotfiles/files/.zshrc $HOME/.zshrc
+ln -s $HOME/.dotfiles/src/.editorconfig $HOME/.editorconfig
+ln -s $HOME/.dotfiles/src/.gitattributes $HOME/.gitattributes
+ln -s $HOME/.dotfiles/src/.gitconfig $HOME/.gitconfig
+ln -s $HOME/.dotfiles/src/.gitignore $HOME/.gitignore
+ln -s $HOME/.dotfiles/src/.mackup.cfg $HOME/.mackup.cfg
+ln -s $HOME/.dotfiles/src/.my.cnf $HOME/.my.cnf
+ln -s $HOME/.dotfiles/src/.p10k.zsh $HOME/.p10k.zsh
+ln -s $HOME/.dotfiles/src/.vimrc $HOME/.vimrc
+ln -s $HOME/.dotfiles/src/.zshrc $HOME/.zshrc
 
 mkdir $HOME/.ssh
 ln -s $HOME/.dotfiles/ssh/config $HOME/.ssh/config
@@ -99,14 +103,14 @@ mkdir $HOME/TEMP
 mkdir $HOME/Projects
 mkdir $HOME/Projects/laravel
 mkdir $HOME/Projects/moodle
-mkdir $HOME/Projects/kubernetes
-mkdir $HOME/Projects/testing
+mkdir $HOME/Projects/containers
+mkdir $HOME/Projects/blackhole
 mkdir $HOME/Projects/[company]
 ```
 
 ## Fonts
 ```bash
-cp $HOME/.dotfiles/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf /Library/Fonts/
+cp $HOME/.dotfiles/library/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf /Library/Fonts/
 ```
 
 ## Screenshots

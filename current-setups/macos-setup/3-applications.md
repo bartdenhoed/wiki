@@ -210,12 +210,6 @@ brew install --cask browserosaurus
 brew install --cask raycast
 ```
 
-#### [Next Meeting](https://apps.apple.com/us/app/next-meeting/id1017470484?mt=12)
-
-```bash
-mas install 1017470484
-```
-
 ## Development
 #### [iTerm2](https://iterm2.com/)
 Best terminal ever.
@@ -340,3 +334,15 @@ A KeePass client for macOS.
 #### [ProtonVPN](https://protonvpn.com)
 
 #### [Folx](https://mac.eltima.com/download-manager.html)
+
+
+
+
+
+#### [Cron](#)
+
+#### [Next Meeting](https://apps.apple.com/us/app/next-meeting/id1017470484?mt=12)
+
+```bash
+mas install 1017470484
+```
