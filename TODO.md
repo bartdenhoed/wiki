@@ -13,3 +13,7 @@ TODO: Vimrc
 
 TODO:
 - npm
+- stats (https://github.com/exelban/stats)
+
+
+https://github.com/bartdenhoed/briOS
