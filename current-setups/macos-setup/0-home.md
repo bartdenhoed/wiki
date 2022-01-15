@@ -38,7 +38,7 @@ git clone https://github.com/bartdenhoed/dotfiles.git $HOME/.dotfiles
 ```
 
 ## Automated scripts
-You can use the Makefile for further setup, or continue with all the manual steps below.
+You can use the Makefile for further setup, or continue right away with the manual steps below.
 ```bash
 make -f ~/.dotfiles/Makefile
 # /bin/bash $HOME/.dotfiles/script/macos-installation/bootstrap

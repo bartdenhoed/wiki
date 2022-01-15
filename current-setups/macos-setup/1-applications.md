@@ -399,7 +399,7 @@ brew install --cask figma
 ```
 
 ## Tips
-#### [CleanMyMac X](https://cleanmymac.com/) (paid)
+#### [CleanMyMac X](https://cleanmymac.com/) (freemium)
 > Tool to remove unnecessary files and folders from disk Chinese edition
 
 ```bash
@@ -417,7 +417,7 @@ $ defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
 brew install --cask forklift
 ```
 
-#### [Intel Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/> intel-power-gadget.html) (free)
+#### [Intel Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html) (free)
 > Power usage monitoring tool enabled for Intel Core processors
 
 ```bash

@@ -58,7 +58,7 @@ In this step you will configure the macOS System Preferences and also other thin
 ```bash
 defaults write NSGlobalDomain AppleInterfaceStyle "Dark"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode 3
-defaults write NSGlobalDomain AppleReduceDesktopTinting
+defaults write NSGlobalDomain AppleReduceDesktopTinting 1
 defaults write NSGlobalDomain AppleShowScrollBars "Always"
 defaults write NSGlobalDomain AppleWindowTabbingMode "always"
 ```
@@ -124,9 +124,8 @@ defaults write NSGlobalDomain AppleLocale "en_NL"
 defaults write NSGlobalDomain AppleICUDateFormatStrings -dict-add 1 "dd-MM-y"
 defaults write NSGlobalDomain AppleLiveTextEnabled 1
 
-
-defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
-defaults write NSGlobalDomain AppleMetricUnits -bool true
+# defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
+# defaults write NSGlobalDomain AppleMetricUnits -bool true
 ```
 
 #### Notifications & Focus
