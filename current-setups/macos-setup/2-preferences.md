@@ -59,7 +59,7 @@ In this step you will configure the macOS System Preferences and also other thin
 defaults write NSGlobalDomain AppleInterfaceStyle "Dark"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode 3
 defaults write NSGlobalDomain AppleReduceDesktopTinting 1
-defaults write NSGlobalDomain AppleShowScrollBars "Always"
+defaults write NSGlobalDomain AppleShowScrollBars "When scrolling"
 defaults write NSGlobalDomain AppleWindowTabbingMode "always"
 ```
 
