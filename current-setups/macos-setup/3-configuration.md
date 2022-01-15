@@ -13,7 +13,6 @@ Here starts the fun stuff. We're starting with the dotfiles and default director
     * [Home directories](#home-directories)
     * [Fonts](#fonts)
     * [Screenshots](#screenshots)
-    * [Feedback](#feedback)
 2. [Preferences](/current-setups/macos-setup/2-preferences.md)
 3. [Applications](/current-setups/macos-setup/3-applications.md)
 4. [Local Development](/current-setups/macos-setup/4-local-development.md)
@@ -123,10 +122,3 @@ Disable shadow in screenshots
 ```bash
 defaults write com.apple.screencapture disable-shadow -bool true
 ```
-
-## Feedback
-If you have any questions, don't hesitate to email my on contact[at]bartdenhoed.nl.
-
-| [![github profile](/.images/me_pixar_small.png)](https://github.com/bartdenhoed) |
-|---|
-| [Bart den Hoed](https://github.com/bartdenhoed) |

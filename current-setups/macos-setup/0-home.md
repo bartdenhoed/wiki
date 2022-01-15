@@ -14,9 +14,9 @@ You will learn my favorite macOS preferences, see the applications that I use ev
 ## Table of contents
 0. [**Home**](/current-setups/macos-setup/0-home.md)
     * [Required steps](#required-steps)
-    * [Automated script](#automated-script)
-    * [Manual setup](#manual-setup)
-    * [Feedback](#feedback)
+    * [Automated scripts](#automated-scripts)
+    * [Setup](#setup)
+    * [Feedback & Credits](#feedback--credits)
 1. [Configuration](/current-setups/macos-setup/1-configuration.md)
 2. [Preferences](/current-setups/macos-setup/2-preferences.md)
 3. [Applications](/current-setups/macos-setup/3-applications.md)
@@ -36,34 +36,34 @@ xcode-select --install
 ```bash
 git clone https://github.com/bartdenhoed/dotfiles.git $HOME/.dotfiles
 ```
-4. [Homebrew](https://brew.sh/) installation (The Missing Package Manager for macOS)
+
+## Automated scripts
+You can use the Makefile for further setup, or continue with all the manual steps below.
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+make -f ~/.dotfiles/Makefile
+# /bin/bash $HOME/.dotfiles/script/macos-installation/bootstrap
+# bash -c "`curl -fsSL https://raw.githubusercontent.com/bartdenhoed/dotfiles/master/remote-install.sh`"
 ```
 
-## Automated script
-For further setup, you can use my automated bootstrap script or manually go through the next steps. Currently there are no scripts for the macOS System Preferences, so there for you need to follow the manual setup.
-```bash
-/bin/bash $HOME/.dotfiles/script/macos-installation/bootstrap
-```
+<img src="/.images/macos_setup_automated_scripts.png" width="200px" alt="macos setup automated scripts">
 
-## Manual setup
+## Setup
 Now you can proceed step by step and use what appeals to your wishes.
 
-#### [1. Configuration](/current-setups/macos-setup/1-configuration.md)
-Here starts the fun stuff. We're starting with the dotfiles and default directories and configure the terminal.
+#### [1. Applications](/current-setups/macos-setup/1-applications.md)
+If you used my automated scripts, all these applications are already installed so we are now going to adjust some settings and fix the launchpad
 
-<img src="/.images/macos_setup_iterm_folders.png" width="500px" alt="macos setup iterm folders">
+<img src="/.images/macos_setup_launchpad.png" width="500px" alt="macos setup launchpad">
 
 #### [2. Preferences](/current-setups/macos-setup/2-preferences.md)
-In this step you will configure the macOS System Preferences and also other things like the touch bar, dock and launchpad.
+In this step you will configure the macOS System Preferences and also other things like the touch bar and dock. Most of these steps are already done with the automated scripts but unfortunately, some things need to be done manually.
 
 <img src="/.images/macos_setup_preferences.png" width="500px" alt="macos setup preferences">
 
-#### [3. Applications](/current-setups/macos-setup/3-applications.md)
-If you used my automated script, all these applications are already installed and we are now going to adjust the settings.
+#### [3. Configuration](/current-setups/macos-setup/3-configuration.md)
+Here starts the fun stuff. We're starting with the dotfiles, default directories and configure the terminal.
 
-<img src="/.images/macos_setup_launchpad.png" width="500px" alt="macos setup launchpad">
+<img src="/.images/macos_setup_iterm_folders.png" width="500px" alt="macos setup iterm folders">
 
 #### [4. Local Development](/current-setups/macos-setup/4-local-development.md)
 When you're into web development, this is my setup mainly for [Laravel](https://laravel.com/).
@@ -75,9 +75,12 @@ A setup is only a good setup if you have good backups. I show you how I've set t
 
 <img src="/.images/macos_setup_backup.png" width="500px" alt="macos setup backup">
 
-## Feedback
+## Feedback & Credits
 If you have any questions, don't hesitate to email my on contact[at]bartdenhoed.nl.
 
 | [![github profile](/.images/me_pixar_small.png)](https://github.com/bartdenhoed) |
 |---|
 | [Bart den Hoed](https://github.com/bartdenhoed) |
+| 2021 - 2022 |
+
+*Inspired by [webpro/dotfiles](https://github.com/webpro/dotfiles) & [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles).*

@@ -1,3 +1,8 @@
+https://github.com/webpro/dotfiles/blob/master/macos/defaults.sh
+killall cfprefsd
+plutil -convert xml1 com.apple.screencaptureui.C06EA698-94DC-57DC-B065-F0D0BB9E250F.plist -o -
+
+
 # Wiki - macOS Setup - Preferences
 
 <img src="/.images/macos_setup_preferences.png" width="500px" alt="macos setup preferences">
@@ -16,7 +21,6 @@ In this step you will configure the macOS System Preferences and also other thin
     * [Desktop](#desktop)
     * [Emojis](#emojis)
     * [Launchpad](#launchpad)
-    * [Feedback](#feedback)
 3. [Applications](/current-setups/macos-setup/3-applications.md)
 4. [Local Development](/current-setups/macos-setup/4-local-development.md)
 5. [Backup](/current-setups/macos-setup/5-backup.md)
@@ -47,6 +51,7 @@ In this step you will configure the macOS System Preferences and also other thin
 #### General
 * Appearance: `Dark`
 * Sidebar icon size: `Large`
+* Allow wallpaper tinting in windows: `Off`
 * Show scroll bars: `When scrolling`
 * Prefer tabs: `always` when opening documents
 
@@ -54,6 +59,8 @@ In this step you will configure the macOS System Preferences and also other thin
 defaults write NSGlobalDomain AppleInterfaceStyle "Dark"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode 3
 defaults write NSGlobalDomain AppleReduceDesktopTinting
+defaults write NSGlobalDomain AppleShowScrollBars "Always"
+defaults write NSGlobalDomain AppleWindowTabbingMode "always"
 ```
 
 #### Desktop & Screen Saver
@@ -63,19 +70,41 @@ defaults write NSGlobalDomain AppleReduceDesktopTinting
 * Screen Saver > Screen Saver Options: `All Displays`
 * Screen Saver > Start after: `10 Minutes`
 
+```bash
+defaults -currentHost write com.apple.screensaver idleTime 600
+```
+
 #### Dock & Menu Bar
 * Dock & Menu Bar > Position on screen: `Left`
+* Dock & Menu Bar > Minimise windows using: `Scale effect`
 * Dock & Menu Bar > Minimise windows intro application icon: `On`
 * Dock & Menu Bar > Automatically hide and show the Dock: `On`
 * Dock & Menu Bar > Show recent applications in Dock: `Off`
 >
 * Dock & Menu Bar > Clock > Display the time with seconds: `On`
 
+```bash
+defaults write com.apple.dock orientation "left"
+defaults write com.apple.dock mineffect "scale"
+defaults write com.apple.dock minimize-to-application 1
+defaults write com.apple.dock autohide 1
+defaults write com.apple.dock show-recents 0
+defaults write com.apple.menuextra.clock ShowSeconds 1
+```
+
 #### Mission Control
 * Automatically rearrange Spaces based on most recent use: `Off`
 * Group windows by application: `On`
 * Hot Corners > Left Top: `Start Screen Saver`
 * Hot Corners > Right Top: `Notification Center`
+
+```bash
+defaults write com.apple.dock mru-spaces 0
+defaults write com.apple.dock expose-group-apps 1
+defaults write com.apple.dock wvous-br-corner 1
+defaults write com.apple.dock wvous-tl-corner 5
+defaults write com.apple.dock wvous-tr-corner 12
+```
 
 #### Siri
 * Enable Ask Siri: `Off`
@@ -87,6 +116,18 @@ defaults write NSGlobalDomain AppleReduceDesktopTinting
 * General > Preferred languages: `English (UK)` & `Dutch (Netherlands)`
 * General > Region: `Netherlands`
 * General > Advanced > Dates > Short: `01-06-2021`
+
+```bash
+defaults write NSGlobalDomain AppleLanguages -array "en-GB" "nl-NL"
+defaults write NSGlobalDomain AppleLocale "en_NL"
+
+defaults write NSGlobalDomain AppleICUDateFormatStrings -dict-add 1 "dd-MM-y"
+defaults write NSGlobalDomain AppleLiveTextEnabled 1
+
+
+defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
+defaults write NSGlobalDomain AppleMetricUnits -bool true
+```
 
 #### Notifications & Focus
 * Focus > Work > Turn On Automatically: `09:00 - 17:00`
@@ -142,7 +183,7 @@ defaults write NSGlobalDomain AppleReduceDesktopTinting
 * Keyboard > Turn keyboard backlight off after: `1 min`
 * Keyboard > Touch Bar shows: `App Controls`
 * Keyboard > Press fn key to: `Show Emoji & Symbols`
-* Keyboard > Press and hold fn key to: `Show App Controls`
+* Keyboard > Press and hold fn key to: `Expand Control Strip`
 * Keyboard > Customize Control Strip
     - Control Strip: `Quick Actions, Brightness Slider, Volume Slider, Play/Pauze`
     - Expanded Control Strip: `Quick Actions, Show Desktop, Space, Keyboard Brightness, Space, Brightness Slider, Volume Slider, Mute, Space, Media`
@@ -163,6 +204,14 @@ defaults write NSGlobalDomain AppleReduceDesktopTinting
 * Input Sources > `Dutch`
 >
 * Dictation > Shortcut: `Off`
+
+```bash
+defaults write NSGlobalDomain InitialKeyRepeat 15
+defaults write NSGlobalDomain KeyRepeat 2
+defaults write com.apple.touchbar.agent PresentationModeGlobal "appWithControlStrip"
+
+
+```
 
 #### Trackpad
 * Point & Click > Look up & data detectors: `Off`
@@ -202,7 +251,15 @@ defaults write NSGlobalDomain AppleReduceDesktopTinting
 -
 
 #### Sharing
+* Computer Name: `[name] MacBook Pro [year]`
 * Printer Sharing: `On`
+
+```bash
+sudo scutil --set ComputerName "$COMPUTER_NAME"
+sudo scutil --set HostName "$COMPUTER_NAME"
+sudo scutil --set LocalHostName "$COMPUTER_NAME"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$COMPUTER_NAME"
+```
 
 #### Time Machine
 -
@@ -326,6 +383,32 @@ Locations:
 * 'MacBook Pro'
 * Network
 
+#### Hidden options
+```bash
+# Expand save panel by default
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+
+# Expand print panel by default
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true ?
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true ?
+
+# Save to disk (not to iCloud) by default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false ?
+
+# Automatically quit printer app once the print jobs complete
+defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true ?
+
+# Disable the “Are you sure you want to open this application?” dialog
+defaults write com.apple.LaunchServices LSQuarantine -bool false
+
+# Disable Resume system-wide
+defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
+
+# Disable the crash reporter
+defaults write com.apple.CrashReporter DialogType -string "none"
+```
+
 ## Desktop
 * Use Stacks: On
 
@@ -349,10 +432,3 @@ $ = Dollar character
 ## Launchpad
 
 ![launchpad](/.images/macos_setup_launchpad.png)
-
-## Feedback
-If you have any questions, don't hesitate to email my on contact[at]bartdenhoed.nl.
-
-| [![github profile](/.images/me_pixar_small.png)](https://github.com/bartdenhoed) |
-|---|
-| [Bart den Hoed](https://github.com/bartdenhoed) |
