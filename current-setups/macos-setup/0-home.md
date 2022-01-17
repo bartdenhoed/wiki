@@ -53,27 +53,27 @@ Now you can proceed step by step and use what appeals to your wishes.
 #### [1. Applications](/current-setups/macos-setup/1-applications.md)
 If you used my automated scripts, all these applications are already installed so we are now going to adjust some settings and fix the launchpad
 
-<img src="/.images/macos_setup_launchpad.png" width="500px" alt="macos setup launchpad">
+[<img src="/.images/macos_setup_launchpad.png" width="500px" alt="macos setup launchpad">](/current-setups/macos-setup/1-applications.md)
 
 #### [2. Preferences](/current-setups/macos-setup/2-preferences.md)
 In this step you will configure the macOS System Preferences and also other things like the touch bar and dock. Most of these steps are already done with the automated scripts but unfortunately, some things need to be done manually.
 
-<img src="/.images/macos_setup_preferences.png" width="500px" alt="macos setup preferences">
+[<img src="/.images/macos_setup_preferences.png" width="500px" alt="macos setup preferences">](/current-setups/macos-setup/2-preferences.md)
 
 #### [3. Configuration](/current-setups/macos-setup/3-configuration.md)
 Here starts the fun stuff. We're starting with the dotfiles, default directories and configure the terminal.
 
-<img src="/.images/macos_setup_iterm_folders.png" width="500px" alt="macos setup iterm folders">
+[<img src="/.images/macos_setup_iterm_folders.png" width="500px" alt="macos setup iterm folders">](/current-setups/macos-setup/3-configuration.md)
 
 #### [4. Local Development](/current-setups/macos-setup/4-local-development.md)
 When you're into web development, this is my setup mainly for [Laravel](https://laravel.com/).
 
-<img src="/.images/macos_setup_vscode.png" width="500px" alt="macos setup vscode">
+[<img src="/.images/macos_setup_vscode.png" width="500px" alt="macos setup vscode">](/current-setups/macos-setup/4-local-development.md)
 
 #### [5. Backup](/current-setups/macos-setup/5-backup.md)
 A setup is only a good setup if you have good backups. I show you how I've set that up.
 
-<img src="/.images/macos_setup_backup.png" width="500px" alt="macos setup backup">
+[<img src="/.images/macos_setup_backup.png" width="500px" alt="macos setup backup">](/current-setups/macos-setup/5-backup.md)
 
 ## Feedback & Credits
 If you have any questions, don't hesitate to email my on contact[at]bartdenhoed.nl.
