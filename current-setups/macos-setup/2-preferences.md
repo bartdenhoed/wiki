@@ -1,8 +1,3 @@
-https://github.com/webpro/dotfiles/blob/master/macos/defaults.sh
-killall cfprefsd
-plutil -convert xml1 com.apple.screencaptureui.C06EA698-94DC-57DC-B065-F0D0BB9E250F.plist -o -
-
-
 # Wiki - macOS Setup - Preferences
 
 <img src="/.images/macos_setup_preferences.png" width="500px" alt="macos setup preferences">
@@ -11,7 +6,7 @@ In this step you will configure the macOS System Preferences and also other thin
 
 ## Table of contents
 0. [Home](/current-setups/macos-setup/0-home.md)
-1. [Configuration](/current-setups/macos-setup/1-configuration.md)
+1. [Applications](/current-setups/macos-setup/1-applications.md)
 2. [**Preferences**](/current-setups/macos-setup/2-preferences.md)
     * [System Preferences](#system-preferences)
     * [Dock](#dock)
@@ -21,7 +16,7 @@ In this step you will configure the macOS System Preferences and also other thin
     * [Desktop](#desktop)
     * [Emojis](#emojis)
     * [Launchpad](#launchpad)
-3. [Applications](/current-setups/macos-setup/3-applications.md)
+3. [Configuration](/current-setups/macos-setup/3-configuration.md)
 4. [Local Development](/current-setups/macos-setup/4-local-development.md)
 5. [Backup](/current-setups/macos-setup/5-backup.md)
 
@@ -276,36 +271,31 @@ defaults write com.apple.dock persistent-apps -array
 
 * Add most used applications
 ```bash
-dockutil --no-restart --add "/Applications/Google Chrome.app"
-dockutil --no-restart --add "/Applications/Google Chrome Canary.app"
-dockutil --no-restart --add "/Applications/Visual Studio Code.app"
-dockutil --no-restart --add "/Applications/iTerm.app"
+dockutil --no-restart --add "/Applications/Mimestream.app"
+dockutil --no-restart --add "/Applications/Cron.app"
 dockutil --no-restart --add "/Applications/Bear.app"
-dockutil --no-restart --add "/Applications/Reminders.app"
-dockutil --no-restart --add "/Applications/Spotify.app"
-dockutil --no-restart --add "/Applications/Slack.app"
+dockutil --no-restart --add "/Applications/Google Chrome.app"
 ```
 
 * Also adding a little space between those apps and other open apps
 ```bash
-defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
+# defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
+dockutil --add '' --type spacer --section apps
 ```
 
 * After that I change the speed off the dock animation to fast or use no animation (super fast)
 ```bash
+# Fast
 defaults write com.apple.dock autohide-time-modifier -float 0.1
 
+# Super Fast
 defaults write com.apple.dock autohide-time-modifier -int 0
-```
-
-* To apply all these changes you must restart the Dock
-```bash
-killall Dock
 ```
 
 * To undo, you can run this
 ```bash
 defaults delete com.apple.dock
+killall Dock
 ```
 
 ## Touch Bar

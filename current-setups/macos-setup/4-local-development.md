@@ -17,61 +17,64 @@ When you're into web development, this is my setup mainly for [Laravel](https://
 
 ## Required Software
 #### Homebrew
-```bash
-# PHP
-$ brew install php
-$ brew install php@8.0
-$ brew install php@7.4
+* git
+* php
+* composer
+* nginx
+* dnsmasq
+* npm
 
-# Composer
-$ brew install composer
+```bash
+brew install git
+brew install composer
+brew install nginx
+
+# PHP
+brew install php
+brew install php@8.0
+brew install php@7.4
+
+# httpd
+# docker
+# aws-iam-authenticator
+# awscli
+# mysql
+# php-cs-fixer
+# python
+# sqlite
+# terraform
+# phpunit
 ```
 
-* [httpd](https://httpd.apache.org/) - Apache HTTP server
-docker
-aws-iam-authenticator
-awscli
-composer
-nginx
-mysql
-php
-php-cs-fixer
-python
-sqlite
-terraform
-git
-
+#### Composer
+```bash
+composer global require laravel/valet
+composer global require laravel/installer
+```
 
 #### Laravel Valet
 ```bash
-$ composer global require laravel/valet
+valet install
 
-$ valet install
-# $ valet tld local
-$ valet use php@7.4
+# valet tld local
+# valet use php@7.4
 
-$ valet park $HOME/Projects/avetica
-$ valet park $HOME/Projects/bartproductions
-$ valet park $HOME/Projects/laravel
-$ valet park $HOME/Projects/testing
+# Register directories
+valet park $HOME/Projects/laravel
+valet park $HOME/Projects/moodle
+valet park $HOME/Projects/blackhole
+valet park $HOME/Projects/[company]
+
+# Add custom drivers
+ln -s $HOME/.dotfiles/.valet/Drivers/HugeValetDriver.php $HOME/.config/valet/Drivers/HugeValetDriver.php
+ln -s $HOME/.dotfiles/.valet/Drivers/MoodleValetDriver.php $HOME/.config/valet/Drivers/MoodleValetDriver.php
 ```
 
+#### NPM
 ```bash
-$ ln -s $HOME/.dotfiles/.valet/Drivers/HugeValetDriver.php $HOME/.config/valet/Drivers/HugeValetDriver.php
-$ ln -s $HOME/.dotfiles/.valet/Drivers/MoodleValetDriver.php $HOME/.config/valet/Drivers/MoodleValetDriver.php
+npm install -g cross-env
 ```
 
-#### Laravel Installer
-```bash
-$ composer global require laravel/installer
-
-$ laravel new example-app
-```
-
-#### PHPUnit
-```bash
-$ brew install phpunit
-```
 
 ## Laravel Valet
 Using for development (SQLite)
@@ -79,20 +82,5 @@ Using for development (SQLite)
 ## Laravel Sail
 Using for acceptation test (MySQL)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-brew install npm
-npm install --global cross-env
+## DigitalOcean
+Production

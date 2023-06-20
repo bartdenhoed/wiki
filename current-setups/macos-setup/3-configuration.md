@@ -77,20 +77,25 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## Dotfiles
 ```bash
-mv $HOME/.zshrc $HOME/.zshrc.backup
+# cd ~/.dotfiles/src
+# stow .
+#stow . -t ~/TEMP/Home
+stow -d ~/.dotfiles -t ~ src
 
-ln -s $HOME/.dotfiles/src/.editorconfig $HOME/.editorconfig
-ln -s $HOME/.dotfiles/src/.gitattributes $HOME/.gitattributes
-ln -s $HOME/.dotfiles/src/.gitconfig $HOME/.gitconfig
-ln -s $HOME/.dotfiles/src/.gitignore $HOME/.gitignore
-ln -s $HOME/.dotfiles/src/.mackup.cfg $HOME/.mackup.cfg
-ln -s $HOME/.dotfiles/src/.my.cnf $HOME/.my.cnf
-ln -s $HOME/.dotfiles/src/.p10k.zsh $HOME/.p10k.zsh
-ln -s $HOME/.dotfiles/src/.vimrc $HOME/.vimrc
-ln -s $HOME/.dotfiles/src/.zshrc $HOME/.zshrc
+# mv $HOME/.zshrc $HOME/.zshrc.backup
 
-mkdir $HOME/.ssh
-ln -s $HOME/.dotfiles/ssh/config $HOME/.ssh/config
+# ln -s $HOME/.dotfiles/src/.editorconfig $HOME/.editorconfig
+# ln -s $HOME/.dotfiles/src/.gitattributes $HOME/.gitattributes
+# ln -s $HOME/.dotfiles/src/.gitconfig $HOME/.gitconfig
+# ln -s $HOME/.dotfiles/src/.gitignore $HOME/.gitignore
+# ln -s $HOME/.dotfiles/src/.mackup.cfg $HOME/.mackup.cfg
+# ln -s $HOME/.dotfiles/src/.my.cnf $HOME/.my.cnf
+# ln -s $HOME/.dotfiles/src/.p10k.zsh $HOME/.p10k.zsh
+# ln -s $HOME/.dotfiles/src/.vimrc $HOME/.vimrc
+# ln -s $HOME/.dotfiles/src/.zshrc $HOME/.zshrc
+
+# mkdir $HOME/.ssh
+# ln -s $HOME/.dotfiles/ssh/config $HOME/.ssh/config
 ```
 
 ## Home directories

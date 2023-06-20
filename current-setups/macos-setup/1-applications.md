@@ -6,14 +6,14 @@ If you used my automated script, all these applications are already installed an
 
 ## Table of contents
 0. [Home](/current-setups/macos-setup/0-home.md)
-1. [Configuration](/current-setups/macos-setup/1-configuration.md)
-2. [Preferences](/current-setups/macos-setup/2-preferences.md)
-3. [**Applications**](/current-setups/macos-setup/3-applications.md)
+1. [**Applications**](/current-setups/macos-setup/1-applications.md)
     * [General Usages](#general-usages)
     * [Tools](#tools)
     * [Development](#development)
     * [Design](#design)
     * [Tips](#tips)
+2. [Preferences](/current-setups/macos-setup/2-preferences.md)
+3. [Configuration](/current-setups/macos-setup/3-configuration.md)
 4. [Local Development](/current-setups/macos-setup/4-local-development.md)
 5. [Backup](/current-setups/macos-setup/5-backup.md)
 
@@ -24,16 +24,16 @@ If you used my automated script, all these applications are already installed an
 *Saving all my credentials, tokens and other secret information, must have for every developer! (and other humans)*
 
 * Settings:
-	* General > Keyboard shortcuts > Show 1Password: Shift + CMD + \
-	* General > Show item count in sidebar: On
-	* Mini > Open 1Password to: Favourites
-	* Mini > Categories: Show in submenu
-	* Security > Require Master Password every: 1 week > 1 day
-	* Security > Lock when main window is closed: On
-	* Security > Lock after computer is idle for: 5 min > 60 min
-	* Watchtower > Check for vulnerable passwords: On
-	* Notifications > One-Time Passwords: Off
-	* Notifications > Watchtower Alerts: On
+	* General > Keyboard shortcuts > Show 1Password: `Shift + CMD + \`
+	* General > Show item count in sidebar: `On`
+	* Mini > Open 1Password to: `Favourites`
+	* Mini > Categories: `Show in submenu`
+	* Security > Require Master Password every: `1 week` > `1 day`
+	* Security > Lock when main window is closed: `On`
+	* Security > Lock after computer is idle for: `5 min` > `60 min`
+	* Watchtower > Check for vulnerable passwords: `On`
+	* Notifications > One-Time Passwords: `Off`
+	* Notifications > Watchtower Alerts: `On`
 
 ```bash
 brew install --cask 1password
@@ -43,6 +43,9 @@ brew install --cask 1password
 > Calendar for professionals and teams
 
 *My calendar of choose, beautiful and with power tools!*
+
+* Settings:
+	* General > Start menu bar calendar: `On`
 
 ```bash
 brew install --cask cron
@@ -54,7 +57,7 @@ brew install --cask cron
 *This is my main browser for years.*
 
 * Settings:
-	* Menubar > Warn Before Quitting: On
+	* Menubar > Warn Before Quitting: `On`
 * Extensions:
 	* [1Password – Password Manager](https://chrome.google.com/webstore/detail/1password-x-%E2%80%93-password-ma/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 	* [Application Launcher for Drive (by Google)](https://chrome.google.com/webstore/detail/application-launcher-for/lmjegmlicamnimmfhcmpkclmigmmcbeh)
@@ -90,7 +93,7 @@ brew install --cask google-chrome
 *I like to do my development in a different browser on a separate chrome profile.*
 
 * Settings:
-	* Menubar > Warn Before Quitting: On
+	* Menubar > Warn Before Quitting: `On`
 
 ```bash
 brew install --cask homebrew/cask-versions/google-chrome-canary
@@ -100,6 +103,16 @@ brew install --cask homebrew/cask-versions/google-chrome-canary
 > Native app email client for Gmail
 
 *Still in beta but, much better than the standard Apple mail application.*
+
+* Settings:
+	* General > Play Sounds: `Notifications only`
+    * General > Delete Key: `Archive (Remove Inbox)`
+    * General > Mark Messages Read: `After a delay`
+    * General > Conversation Order: `Newest to Oldest`
+    >
+    * Sidebar > Show unread count for Spam: `Off`
+    >
+    * Composing > Show enitre address when composing: `On`
 
 ```bash
 brew install --cask mimestream
@@ -118,6 +131,9 @@ brew install --cask pocket-casts
 > Create, Tag, Export, Encrypt
 
 *Bear is perfect for creating notes with Markdown support.*
+
+* Settings:
+	* Editor > Font: `System`
 
 ```bash
 mas install 1091189122
@@ -258,6 +274,13 @@ brew install --cask balenaetcher
 
 *Can't live without anymore.*
 
+* Settings:
+	* General > Launch Bartender at Login: `On`
+    * General > Bartender menu bar icon: `Arrow`
+    * General > Show Hidden Item Divider: `Off`
+    * Show For Updates > Show For Updates Enabled: `Off`
+    * Advanced > Decrease show for update checking: `On`
+
 ```bash
 brew install --cask bartender
 ```
@@ -291,7 +314,7 @@ brew install --cask raycast
 	* Appearance > General > Theme: `Minimal`
 	* Appearance > Windows > Show window number in title bar: `Off`
 	* Advanced > In the Minimal theme, how different should the background color of the selected tab be from the others: `0.02`
-	* Advanced > in The Minimal theme, how prominent should split pane dividers be: `0`
+	* Advanced > in The Minimal theme, how prominent should split pane dividers be: `0.15`
 
 ```bash
 brew install --cask iterm2
@@ -303,6 +326,9 @@ brew install --cask iterm2
 *For simple text editing.*
 
 TODO:
+* Installation:
+    1. Install Package Control
+    2.
 * Settings: [Preferences.sublime-settings]
 * Packages: Theme - One Dark
 
